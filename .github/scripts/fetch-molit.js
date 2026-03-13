@@ -98,9 +98,25 @@ async function fetchDistrict(districtCode, dealYmd) {
 
   const res = await fetch(url.toString());
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const json = await res.json();
+  const text = await res.text();
+  let json;
+  try { json = JSON.parse(text); } catch (e) {
+    console.error(`[JSON파싱실패] ${districtCode} ${dealYmd}: ${text.slice(0, 200)}`);
+    return [];
+  }
+  const resultCode = json?.response?.header?.resultCode;
+  const totalCount = json?.response?.body?.totalCount ?? 0;
+  if (resultCode !== '00') {
+    console.warn(`[API오류] ${districtCode} ${dealYmd}: resultCode=${resultCode}, msg=${json?.response?.header?.resultMsg}`);
+    return [];
+  }
   const items = json?.response?.body?.items?.item || [];
-  return Array.isArray(items) ? items : [items];
+  const arr = Array.isArray(items) ? items : (items ? [items] : []);
+  // 첫 번째 지역 첫 호출 시 샘플 로그
+  if (arr.length > 0 && districtCode === Object.values(DISTRICT_CODES)[0] && dealYmd === getPastMonths(3)[0]) {
+    console.log(`[샘플레코드] totalCount=${totalCount}`, JSON.stringify(arr[0]));
+  }
+  return arr;
 }
 
 /** raw 레코드 → 내부 스키마 변환 */
@@ -158,7 +174,7 @@ async function main() {
     process.exit(1);
   }
 
-  const months = getPastMonths(3); // 최근 3개월
+  const months = getPastMonths(12); // 최근 12개월
   console.log(`조회 기간: ${months.join(', ')}`);
 
   const allRaw = [];

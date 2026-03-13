@@ -21,10 +21,10 @@ jobs:
           node-version: '20'
 
       - name: 의존성 설치
-        run: npm install node-fetch
+        run: cd .github/scripts && npm install
 
       - name: MOLIT API 데이터 fetch
-        run: node .github/scripts/fetch-molit.js
+        run: cd .github/scripts && node fetch-molit.js
         env:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
 

@@ -18,7 +18,7 @@ const state = {
   filters: {
     districts: [],          // 비어 있으면 전체
     minSize평: 45,
-    maxSize평: 200,
+    maxSize평: 100,
     minPrice: 0,
     maxPrice: 149999        // 15억 미만 고정 상한
   },
@@ -512,7 +512,7 @@ function buildFilterUI() {
     let max = parseInt(sliderMaxSize.value);
     if (min > max) { sliderMinSize.value = max; min = max; }
     labelMinSize.textContent  = min + '평';
-    labelMaxSize.textContent  = max >= 200 ? '200평+' : max + '평';
+    labelMaxSize.textContent  = max >= 100 ? '100평+' : max + '평';
     state.filters.minSize평   = min;
     state.filters.maxSize평   = max;
     applyFilters();
@@ -536,7 +536,7 @@ function buildFilterUI() {
 
   // Reset button
   document.getElementById('btnReset').addEventListener('click', () => {
-    sliderMinSize.value  = 45;  sliderMaxSize.value  = 200;
+    sliderMinSize.value  = 45;  sliderMaxSize.value  = 100;
     sliderMinPrice.value = 0;   sliderMaxPrice.value = 149999;
     updateSizeLabels(); updatePriceLabels();
     state.searchQuery = '';

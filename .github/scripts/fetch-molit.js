@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_JS_PATH = path.resolve(__dirname, '../../data.js');
 
 const API_KEY = process.env.MOLIT_API_KEY;
-const BASE_URL = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTrade';
+const BASE_URL = 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev';
 const MIN_SIZE_M2 = 148.76;   // 45평
 const MAX_PRICE = 150000;      // 15억 미만 (만원)
 const SEOUL_LAT = 37.5665;

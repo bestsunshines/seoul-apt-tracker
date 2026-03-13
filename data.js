@@ -15,7 +15,7 @@ const LAST_UPDATED = "2026-03-13";
 const MOLIT_CONFIG = {
   USE_LIVE_API: false,
   API_KEY: '',
-  BASE_URL: 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTrade',
+  BASE_URL: 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev',
   MIN_SIZE_M2: 148.76,   // 45평 기준 (1평 = 3.3058㎡)
   MAX_PRICE_MANWON: 150000,  // 15억 (만원 단위)
   RADIUS_KM: 40,

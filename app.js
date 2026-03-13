@@ -600,8 +600,11 @@ async function init() {
     console.warn('데이터 로드 실패, 샘플 데이터 사용:', e);
   }
 
+  const lastUpdated = window.DataModule.LAST_UPDATED || '-';
   const lastUpdatedEl = document.getElementById('last-updated');
-  if (lastUpdatedEl) lastUpdatedEl.textContent = window.DataModule.LAST_UPDATED || '-';
+  if (lastUpdatedEl) lastUpdatedEl.textContent = lastUpdated;
+  const statUpdatedEl = document.getElementById('stat-updated');
+  if (statUpdatedEl) statUpdatedEl.textContent = lastUpdated;
 
   initMap();
   initChart();

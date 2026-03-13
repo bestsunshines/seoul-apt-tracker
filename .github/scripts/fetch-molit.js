@@ -106,7 +106,7 @@ async function fetchDistrict(districtCode, dealYmd) {
   }
   const resultCode = json?.response?.header?.resultCode;
   const totalCount = json?.response?.body?.totalCount ?? 0;
-  if (resultCode !== '00') {
+  if (resultCode !== '00' && resultCode !== '000') {
     console.warn(`[API오류] ${districtCode} ${dealYmd}: resultCode=${resultCode}, msg=${json?.response?.header?.resultMsg}`);
     return [];
   }

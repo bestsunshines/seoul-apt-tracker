@@ -17,7 +17,7 @@ const MOLIT_CONFIG = {
   API_KEY: '',
   BASE_URL: 'https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTrade',
   MIN_SIZE_M2: 148.76,   // 45평 기준 (1평 = 3.3058㎡)
-  MAX_PRICE_MANWON: 100000,  // 10억 (만원 단위)
+  MAX_PRICE_MANWON: 150000,  // 15억 (만원 단위)
   RADIUS_KM: 40,
   SEOUL_LAT: 37.5665,
   SEOUL_LNG: 126.9780

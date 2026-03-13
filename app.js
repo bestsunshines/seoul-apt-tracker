@@ -35,7 +35,7 @@ const SEOUL_LAT = 37.5665;
 const SEOUL_LNG = 126.9780;
 const MAX_RADIUS_KM = 40;
 const MIN_SIZE_M2 = 148.76;
-const MAX_PRICE = 99999;
+const MAX_PRICE = 149999;
 
 /* ============================================================
    Utility Functions
@@ -523,7 +523,7 @@ function buildFilterUI() {
     let max = parseInt(sliderMaxPrice.value);
     if (min > max) { sliderMinPrice.value = max; min = max; }
     labelMinPrice.textContent = formatPrice(min) || '0만';
-    labelMaxPrice.textContent = max >= 99999 ? '10억 미만' : formatPrice(max);
+    labelMaxPrice.textContent = max >= 149999 ? '15억 미만' : formatPrice(max);
     state.filters.minPrice    = min;
     state.filters.maxPrice    = max;
     applyFilters();
@@ -537,7 +537,7 @@ function buildFilterUI() {
   // Reset button
   document.getElementById('btnReset').addEventListener('click', () => {
     sliderMinSize.value  = 45;  sliderMaxSize.value  = 200;
-    sliderMinPrice.value = 0;   sliderMaxPrice.value = 99999;
+    sliderMinPrice.value = 0;   sliderMaxPrice.value = 149999;
     updateSizeLabels(); updatePriceLabels();
     state.searchQuery = '';
     document.getElementById('searchInput').value = '';

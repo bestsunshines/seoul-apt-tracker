@@ -111,9 +111,7 @@ function transform(raw, district, dealYmd) {
   const year = String(raw.dealYear || dealYmd.slice(0, 4));
   const month = String(raw.dealMonth || dealYmd.slice(4, 6)).padStart(2, '0');
 
-  const [baseLat, baseLng] = DISTRICT_COORDS[district] || [SEOUL_LAT, SEOUL_LNG];
-  const lat = baseLat + (Math.random() - 0.5) * 0.05;
-  const lng = baseLng + (Math.random() - 0.5) * 0.05;
+  const [lat, lng] = DISTRICT_COORDS[district] || [SEOUL_LAT, SEOUL_LNG];
 
   return {
     name: (raw.aptNm || '').trim(),
@@ -174,8 +172,7 @@ async function main() {
           if (
             rec.sizeM2 >= MIN_SIZE_M2 &&
             rec.price > 0 &&
-            rec.price < MAX_PRICE &&
-            haversine(rec.lat, rec.lng) <= RADIUS_KM
+            rec.price < MAX_PRICE
           ) {
             allRaw.push(rec);
           }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울 근교 대형 아파트 실거래가 트래커</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-title">
+        <h1>🏢 서울 근교 대형 아파트 실거래가</h1>
+        <p class="header-sub">서울시청 기준 40km 이내 · 45평 이상 · 10억 미만</p>
+      </div>
+      <div class="stat-cards">
+        <div class="stat-card">
+          <span class="stat-label">평균 거래가</span>
+          <span class="stat-value" id="stat-avg">—</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">최고가</span>
+          <span class="stat-value accent" id="stat-max">—</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">최저가</span>
+          <span class="stat-value success" id="stat-min">—</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">거래 건수</span>
+          <span class="stat-value" id="stat-count">—</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="app-body">
+
+    <!-- Filter Sidebar -->
+    <aside class="filter-panel" id="filterPanel">
+      <div class="filter-header">
+        <h2>필터</h2>
+        <button class="btn-reset" id="btnReset">초기화</button>
+      </div>
+
+      <div class="filter-section">
+        <h3>지역</h3>
+        <div class="district-list" id="districtList">
+          <!-- dynamically populated -->
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h3>전용면적</h3>
+        <div class="range-row">
+          <span class="range-val" id="labelMinSize">45평</span>
+          <span class="range-sep">~</span>
+          <span class="range-val" id="labelMaxSize">200평+</span>
+        </div>
+        <div class="slider-wrap">
+          <input type="range" id="sliderMinSize" min="45" max="200" value="45" step="1">
+          <input type="range" id="sliderMaxSize" min="45" max="200" value="200" step="1">
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h3>거래금액</h3>
+        <div class="range-row">
+          <span class="range-val" id="labelMinPrice">0만</span>
+          <span class="range-sep">~</span>
+          <span class="range-val" id="labelMaxPrice">10억</span>
+        </div>
+        <div class="slider-wrap">
+          <input type="range" id="sliderMinPrice" min="0" max="99999" value="0" step="1000">
+          <input type="range" id="sliderMaxPrice" min="0" max="99999" value="99999" step="1000">
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h3>기간</h3>
+        <div class="period-btns">
+          <button class="period-btn active" data-months="3">3개월</button>
+          <button class="period-btn" data-months="6">6개월</button>
+          <button class="period-btn" data-months="12">12개월</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="content-area">
+
+      <!-- Map -->
+      <section class="map-panel">
+        <div class="panel-header">
+          <h2>지도</h2>
+          <span class="panel-note">서울시청 기준 40km 반경</span>
+        </div>
+        <div id="map"></div>
+      </section>
+
+      <!-- Chart -->
+      <section class="chart-panel">
+        <div class="panel-header">
+          <h2>월별 평균 거래가 추세</h2>
+          <span class="panel-note" id="chartNote">필터된 단지 기준</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </section>
+
+      <!-- Table -->
+      <section class="table-panel">
+        <div class="table-toolbar">
+          <div class="toolbar-left">
+            <h2>거래 목록</h2>
+            <span class="count-badge" id="tableCount">0건</span>
+          </div>
+          <input type="text" id="searchInput" placeholder="🔍 아파트명 검색..." class="search-input">
+        </div>
+        <div class="table-wrapper">
+          <table id="apartmentTable">
+            <thead>
+              <tr>
+                <th data-sort="name">아파트명 <span class="sort-icon">↕</span></th>
+                <th data-sort="district">지역 <span class="sort-icon">↕</span></th>
+                <th data-sort="size평">면적 <span class="sort-icon">↕</span></th>
+                <th data-sort="floor">층 <span class="sort-icon">↕</span></th>
+                <th data-sort="price">거래금액 <span class="sort-icon">↕</span></th>
+                <th data-sort="transactionDate">거래일 <span class="sort-icon">↕</span></th>
+                <th>추세</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination" id="pagination"></div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <p>데이터 출처: 국토교통부 실거래가 공개시스템 (샘플 데이터 기준 · 실제 API 연동 시 <code>data.js</code>의 <code>MOLIT_CONFIG.USE_LIVE_API</code>를 <code>true</code>로 변경)</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

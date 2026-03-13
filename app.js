@@ -600,6 +600,9 @@ async function init() {
     console.warn('데이터 로드 실패, 샘플 데이터 사용:', e);
   }
 
+  const lastUpdatedEl = document.getElementById('last-updated');
+  if (lastUpdatedEl) lastUpdatedEl.textContent = window.DataModule.LAST_UPDATED || '-';
+
   initMap();
   initChart();
   buildFilterUI();

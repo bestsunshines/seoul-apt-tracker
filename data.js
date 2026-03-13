@@ -1,3 +1,6 @@
+/* 마지막 데이터 업데이트 날짜 (GitHub Actions가 자동 갱신) */
+const LAST_UPDATED = "샘플 데이터";
+
 /* ============================================================
    MOLIT API Configuration
    국토교통부 실거래가 공개시스템 연동 설정
@@ -497,4 +500,4 @@ async function getDataSource() {
   return SAMPLE_DATA;
 }
 
-window.DataModule = { getDataSource, MOLIT_CONFIG, SAMPLE_DATA };
+window.DataModule = { getDataSource, MOLIT_CONFIG, SAMPLE_DATA, LAST_UPDATED };

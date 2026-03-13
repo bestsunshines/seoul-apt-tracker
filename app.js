@@ -552,16 +552,6 @@ function buildFilterUI() {
     applyFilters();
   });
 
-  // Period buttons
-  document.querySelectorAll('.period-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.period-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.chartMonths = parseInt(btn.dataset.months);
-      renderChart();
-    });
-  });
-
   // Table sort
   document.querySelectorAll('thead th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {

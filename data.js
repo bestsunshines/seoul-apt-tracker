@@ -1,5 +1,5 @@
 /* 마지막 데이터 업데이트 날짜 (GitHub Actions가 자동 갱신) */
-const LAST_UPDATED = "2026-05-01";
+const LAST_UPDATED = "2026-06-01";
 
 /* ============================================================
    MOLIT API Configuration
@@ -71,6 +71,72 @@ function genHistory(basePrice, trendPct = 0.5) {
 const SAMPLE_DATA = [
   {
     "id": "LIVE_001",
+    "name": "은빛삼익건설(5)",
+    "district": "고양시",
+    "neighborhood": "화정동",
+    "size평": 49.9,
+    "sizeM2": 164.94,
+    "floor": 15,
+    "totalFloors": 0,
+    "price": 63000,
+    "transactionDate": "2026-05",
+    "lat": 37.6584,
+    "lng": 126.832,
+    "buildYear": 1995,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 69000
+      },
+      {
+        "month": "2026-02",
+        "price": 67000
+      },
+      {
+        "month": "2026-04",
+        "price": 63500
+      },
+      {
+        "month": "2026-05",
+        "price": 63000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_002",
+    "name": "은빛마을6단지",
+    "district": "고양시",
+    "neighborhood": "화정동",
+    "size평": 49.7,
+    "sizeM2": 164.34,
+    "floor": 2,
+    "totalFloors": 0,
+    "price": 76000,
+    "transactionDate": "2026-05",
+    "lat": 37.6584,
+    "lng": 126.832,
+    "buildYear": 1996,
+    "priceHistory": [
+      {
+        "month": "2025-11",
+        "price": 103500
+      },
+      {
+        "month": "2026-02",
+        "price": 87000
+      },
+      {
+        "month": "2026-03",
+        "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_003",
     "name": "달빛마을4단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -95,7 +161,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_002",
+    "id": "LIVE_004",
     "name": "은빛마을(LG)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -128,7 +194,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_003",
+    "id": "LIVE_005",
     "name": "은빛삼익건설(5)",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -153,11 +219,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 63500
+      },
+      {
+        "month": "2026-05",
+        "price": 63000
       }
     ]
   },
   {
-    "id": "LIVE_004",
+    "id": "LIVE_006",
     "name": "은빛마을(신성)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -178,7 +248,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_005",
+    "id": "LIVE_007",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -203,11 +273,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_006",
+    "id": "LIVE_008",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -232,11 +306,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_007",
+    "id": "LIVE_009",
     "name": "일신건영아파트(햇빛마을)",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -269,7 +347,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_008",
+    "id": "LIVE_010",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -294,11 +372,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_009",
+    "id": "LIVE_011",
     "name": "삼성래미안",
     "district": "고양시",
     "neighborhood": "성사동",
@@ -323,7 +405,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_010",
+    "id": "LIVE_012",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -348,11 +430,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_011",
+    "id": "LIVE_013",
     "name": "일신건영아파트(햇빛마을)",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -385,7 +471,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_012",
+    "id": "LIVE_014",
     "name": "은빛삼익건설(5)",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -410,11 +496,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 63500
+      },
+      {
+        "month": "2026-05",
+        "price": 63000
       }
     ]
   },
   {
-    "id": "LIVE_013",
+    "id": "LIVE_015",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -439,11 +529,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_014",
+    "id": "LIVE_016",
     "name": "달빛마을4단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -468,7 +562,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_015",
+    "id": "LIVE_017",
     "name": "햇빛마을",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -483,17 +577,13 @@ const SAMPLE_DATA = [
     "buildYear": 1997,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 62000
-      },
-      {
         "month": "2026-01",
         "price": 64000
       }
     ]
   },
   {
-    "id": "LIVE_016",
+    "id": "LIVE_018",
     "name": "삼성래미안",
     "district": "고양시",
     "neighborhood": "성사동",
@@ -518,7 +608,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_017",
+    "id": "LIVE_019",
     "name": "은빛마을(LG)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -551,7 +641,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_018",
+    "id": "LIVE_020",
     "name": "삼성래미안",
     "district": "고양시",
     "neighborhood": "성사동",
@@ -576,7 +666,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_019",
+    "id": "LIVE_021",
     "name": "은빛마을(삼성)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -601,7 +691,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_020",
+    "id": "LIVE_022",
     "name": "은빛마을(LG)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -634,7 +724,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_021",
+    "id": "LIVE_023",
     "name": "일신건영아파트(햇빛마을)",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -667,7 +757,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_022",
+    "id": "LIVE_024",
     "name": "은빛마을6단지",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -692,11 +782,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 89667
+      },
+      {
+        "month": "2026-05",
+        "price": 76000
       }
     ]
   },
   {
-    "id": "LIVE_023",
+    "id": "LIVE_025",
     "name": "은빛마을(삼성)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -721,7 +815,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_024",
+    "id": "LIVE_026",
     "name": "은빛(미도파)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -742,7 +836,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_025",
+    "id": "LIVE_027",
     "name": "일신건영아파트(햇빛마을)",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -775,7 +869,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_026",
+    "id": "LIVE_028",
     "name": "은빛마을(LG)5",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -808,7 +902,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_027",
+    "id": "LIVE_029",
     "name": "동원텔",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -829,7 +923,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_028",
+    "id": "LIVE_030",
     "name": "은빛삼익건설(5)",
     "district": "고양시",
     "neighborhood": "화정동",
@@ -854,11 +948,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 63500
+      },
+      {
+        "month": "2026-05",
+        "price": 63000
       }
     ]
   },
   {
-    "id": "LIVE_029",
+    "id": "LIVE_031",
     "name": "햇빛마을",
     "district": "고양시",
     "neighborhood": "행신동",
@@ -873,162 +971,13 @@ const SAMPLE_DATA = [
     "buildYear": 1997,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 62000
-      },
-      {
         "month": "2026-01",
         "price": 64000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_030",
-    "name": "은빛마을(삼성)5",
-    "district": "고양시",
-    "neighborhood": "화정동",
-    "size평": 49.9,
-    "sizeM2": 164.91,
-    "floor": 16,
-    "totalFloors": 0,
-    "price": 63000,
-    "transactionDate": "2025-05",
-    "lat": 37.6584,
-    "lng": 126.832,
-    "buildYear": 1995,
-    "priceHistory": [
-      {
-        "month": "2025-10",
-        "price": 63500
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_031",
-    "name": "은빛마을6단지",
-    "district": "고양시",
-    "neighborhood": "화정동",
-    "size평": 49.7,
-    "sizeM2": 164.34,
-    "floor": 1,
-    "totalFloors": 0,
-    "price": 86000,
-    "transactionDate": "2025-05",
-    "lat": 37.6584,
-    "lng": 126.832,
-    "buildYear": 1996,
-    "priceHistory": [
-      {
-        "month": "2025-11",
-        "price": 103500
-      },
-      {
-        "month": "2026-02",
-        "price": 87000
-      },
-      {
-        "month": "2026-03",
-        "price": 89667
       }
     ]
   },
   {
     "id": "LIVE_032",
-    "name": "은빛마을(LG)5",
-    "district": "고양시",
-    "neighborhood": "화정동",
-    "size평": 49.9,
-    "sizeM2": 164.94,
-    "floor": 20,
-    "totalFloors": 0,
-    "price": 65000,
-    "transactionDate": "2025-05",
-    "lat": 37.6584,
-    "lng": 126.832,
-    "buildYear": 1995,
-    "priceHistory": [
-      {
-        "month": "2025-09",
-        "price": 63000
-      },
-      {
-        "month": "2025-12",
-        "price": 64000
-      },
-      {
-        "month": "2026-01",
-        "price": 62500
-      },
-      {
-        "month": "2026-04",
-        "price": 66500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_033",
-    "name": "은빛마을6단지",
-    "district": "고양시",
-    "neighborhood": "화정동",
-    "size평": 49.7,
-    "sizeM2": 164.34,
-    "floor": 13,
-    "totalFloors": 0,
-    "price": 92000,
-    "transactionDate": "2025-05",
-    "lat": 37.6584,
-    "lng": 126.832,
-    "buildYear": 1996,
-    "priceHistory": [
-      {
-        "month": "2025-11",
-        "price": 103500
-      },
-      {
-        "month": "2026-02",
-        "price": 87000
-      },
-      {
-        "month": "2026-03",
-        "price": 89667
-      }
-    ]
-  },
-  {
-    "id": "LIVE_034",
-    "name": "은빛마을6단지",
-    "district": "고양시",
-    "neighborhood": "화정동",
-    "size평": 49.7,
-    "sizeM2": 164.34,
-    "floor": 17,
-    "totalFloors": 0,
-    "price": 89000,
-    "transactionDate": "2025-05",
-    "lat": 37.6584,
-    "lng": 126.832,
-    "buildYear": 1996,
-    "priceHistory": [
-      {
-        "month": "2025-11",
-        "price": 103500
-      },
-      {
-        "month": "2026-02",
-        "price": 87000
-      },
-      {
-        "month": "2026-03",
-        "price": 89667
-      }
-    ]
-  },
-  {
-    "id": "LIVE_035",
     "name": "원일아름",
     "district": "구리시",
     "neighborhood": "인창동",
@@ -1057,7 +1006,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_036",
+    "id": "LIVE_033",
     "name": "원일아름",
     "district": "구리시",
     "neighborhood": "인창동",
@@ -1086,7 +1035,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_037",
+    "id": "LIVE_034",
     "name": "원일아름",
     "district": "구리시",
     "neighborhood": "인창동",
@@ -1115,7 +1064,803 @@ const SAMPLE_DATA = [
     ]
   },
   {
+    "id": "LIVE_035",
+    "name": "플루리움4,5단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 55.3,
+    "sizeM2": 182.767,
+    "floor": 6,
+    "totalFloors": 0,
+    "price": 85000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 90000
+      },
+      {
+        "month": "2025-09",
+        "price": 75950
+      },
+      {
+        "month": "2025-10",
+        "price": 82750
+      },
+      {
+        "month": "2025-12",
+        "price": 84000
+      },
+      {
+        "month": "2026-01",
+        "price": 91000
+      },
+      {
+        "month": "2026-02",
+        "price": 86667
+      },
+      {
+        "month": "2026-03",
+        "price": 67500
+      },
+      {
+        "month": "2026-04",
+        "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_036",
+    "name": "덕소두산위브",
+    "district": "남양주시",
+    "neighborhood": "와부읍 도곡리",
+    "size평": 51.4,
+    "sizeM2": 169.788,
+    "floor": 7,
+    "totalFloors": 0,
+    "price": 99000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 94000
+      },
+      {
+        "month": "2025-09",
+        "price": 118625
+      },
+      {
+        "month": "2025-11",
+        "price": 91250
+      },
+      {
+        "month": "2026-01",
+        "price": 92000
+      },
+      {
+        "month": "2026-02",
+        "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_037",
+    "name": "플루리움1단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 49.1,
+    "sizeM2": 162.454,
+    "floor": 24,
+    "totalFloors": 0,
+    "price": 77500,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 77000
+      },
+      {
+        "month": "2025-09",
+        "price": 103000
+      },
+      {
+        "month": "2025-10",
+        "price": 77400
+      },
+      {
+        "month": "2025-11",
+        "price": 86500
+      },
+      {
+        "month": "2025-12",
+        "price": 78500
+      },
+      {
+        "month": "2026-01",
+        "price": 79000
+      },
+      {
+        "month": "2026-02",
+        "price": 79833
+      },
+      {
+        "month": "2026-03",
+        "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
+      }
+    ]
+  },
+  {
     "id": "LIVE_038",
+    "name": "호평파라곤",
+    "district": "남양주시",
+    "neighborhood": "호평동",
+    "size평": 46.2,
+    "sizeM2": 152.59,
+    "floor": 18,
+    "totalFloors": 0,
+    "price": 67000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 66000
+      },
+      {
+        "month": "2025-10",
+        "price": 65667
+      },
+      {
+        "month": "2026-01",
+        "price": 68500
+      },
+      {
+        "month": "2026-03",
+        "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_039",
+    "name": "플루리움4,5단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 55.3,
+    "sizeM2": 182.767,
+    "floor": 19,
+    "totalFloors": 0,
+    "price": 104500,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 90000
+      },
+      {
+        "month": "2025-09",
+        "price": 75950
+      },
+      {
+        "month": "2025-10",
+        "price": 82750
+      },
+      {
+        "month": "2025-12",
+        "price": 84000
+      },
+      {
+        "month": "2026-01",
+        "price": 91000
+      },
+      {
+        "month": "2026-02",
+        "price": 86667
+      },
+      {
+        "month": "2026-03",
+        "price": 67500
+      },
+      {
+        "month": "2026-04",
+        "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_040",
+    "name": "플루리움1단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 49.1,
+    "sizeM2": 162.454,
+    "floor": 22,
+    "totalFloors": 0,
+    "price": 74700,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 77000
+      },
+      {
+        "month": "2025-09",
+        "price": 103000
+      },
+      {
+        "month": "2025-10",
+        "price": 77400
+      },
+      {
+        "month": "2025-11",
+        "price": 86500
+      },
+      {
+        "month": "2025-12",
+        "price": 78500
+      },
+      {
+        "month": "2026-01",
+        "price": 79000
+      },
+      {
+        "month": "2026-02",
+        "price": 79833
+      },
+      {
+        "month": "2026-03",
+        "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_041",
+    "name": "플루리움1단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 49.1,
+    "sizeM2": 162.454,
+    "floor": 3,
+    "totalFloors": 0,
+    "price": 71000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 77000
+      },
+      {
+        "month": "2025-09",
+        "price": 103000
+      },
+      {
+        "month": "2025-10",
+        "price": 77400
+      },
+      {
+        "month": "2025-11",
+        "price": 86500
+      },
+      {
+        "month": "2025-12",
+        "price": 78500
+      },
+      {
+        "month": "2026-01",
+        "price": 79000
+      },
+      {
+        "month": "2026-02",
+        "price": 79833
+      },
+      {
+        "month": "2026-03",
+        "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_042",
+    "name": "플루리움1단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 55.3,
+    "sizeM2": 182.767,
+    "floor": 17,
+    "totalFloors": 0,
+    "price": 100000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 77000
+      },
+      {
+        "month": "2025-09",
+        "price": 103000
+      },
+      {
+        "month": "2025-10",
+        "price": 77400
+      },
+      {
+        "month": "2025-11",
+        "price": 86500
+      },
+      {
+        "month": "2025-12",
+        "price": 78500
+      },
+      {
+        "month": "2026-01",
+        "price": 79000
+      },
+      {
+        "month": "2026-02",
+        "price": 79833
+      },
+      {
+        "month": "2026-03",
+        "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_043",
+    "name": "플루리움4,5단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 55.3,
+    "sizeM2": 182.767,
+    "floor": 3,
+    "totalFloors": 0,
+    "price": 65000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 90000
+      },
+      {
+        "month": "2025-09",
+        "price": 75950
+      },
+      {
+        "month": "2025-10",
+        "price": 82750
+      },
+      {
+        "month": "2025-12",
+        "price": 84000
+      },
+      {
+        "month": "2026-01",
+        "price": 91000
+      },
+      {
+        "month": "2026-02",
+        "price": 86667
+      },
+      {
+        "month": "2026-03",
+        "price": 67500
+      },
+      {
+        "month": "2026-04",
+        "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_044",
+    "name": "플루리움4,5단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 49.1,
+    "sizeM2": 162.454,
+    "floor": 23,
+    "totalFloors": 0,
+    "price": 80000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 90000
+      },
+      {
+        "month": "2025-09",
+        "price": 75950
+      },
+      {
+        "month": "2025-10",
+        "price": 82750
+      },
+      {
+        "month": "2025-12",
+        "price": 84000
+      },
+      {
+        "month": "2026-01",
+        "price": 91000
+      },
+      {
+        "month": "2026-02",
+        "price": 86667
+      },
+      {
+        "month": "2026-03",
+        "price": 67500
+      },
+      {
+        "month": "2026-04",
+        "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_045",
+    "name": "진접센트레빌시티1단지",
+    "district": "남양주시",
+    "neighborhood": "진접읍 부평리",
+    "size평": 45.4,
+    "sizeM2": 150.11,
+    "floor": 2,
+    "totalFloors": 0,
+    "price": 53000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2009,
+    "priceHistory": [
+      {
+        "month": "2025-09",
+        "price": 49250
+      },
+      {
+        "month": "2025-11",
+        "price": 52000
+      },
+      {
+        "month": "2026-01",
+        "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_046",
+    "name": "호평파라곤",
+    "district": "남양주시",
+    "neighborhood": "호평동",
+    "size평": 46.3,
+    "sizeM2": 153.18,
+    "floor": 10,
+    "totalFloors": 0,
+    "price": 60000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 66000
+      },
+      {
+        "month": "2025-10",
+        "price": 65667
+      },
+      {
+        "month": "2026-01",
+        "price": 68500
+      },
+      {
+        "month": "2026-03",
+        "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_047",
+    "name": "플루리움4,5단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 49.1,
+    "sizeM2": 162.454,
+    "floor": 7,
+    "totalFloors": 0,
+    "price": 77000,
+    "transactionDate": "2026-05",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 90000
+      },
+      {
+        "month": "2025-09",
+        "price": 75950
+      },
+      {
+        "month": "2025-10",
+        "price": 82750
+      },
+      {
+        "month": "2025-12",
+        "price": 84000
+      },
+      {
+        "month": "2026-01",
+        "price": 91000
+      },
+      {
+        "month": "2026-02",
+        "price": 86667
+      },
+      {
+        "month": "2026-03",
+        "price": 67500
+      },
+      {
+        "month": "2026-04",
+        "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_048",
+    "name": "덕소두산위브",
+    "district": "남양주시",
+    "neighborhood": "와부읍 도곡리",
+    "size평": 51.4,
+    "sizeM2": 169.788,
+    "floor": 25,
+    "totalFloors": 0,
+    "price": 85000,
+    "transactionDate": "2026-04",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 94000
+      },
+      {
+        "month": "2025-09",
+        "price": 118625
+      },
+      {
+        "month": "2025-11",
+        "price": 91250
+      },
+      {
+        "month": "2026-01",
+        "price": 92000
+      },
+      {
+        "month": "2026-02",
+        "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_049",
+    "name": "플루리움1단지",
+    "district": "남양주시",
+    "neighborhood": "다산동",
+    "size평": 55.3,
+    "sizeM2": 182.767,
+    "floor": 19,
+    "totalFloors": 0,
+    "price": 85000,
+    "transactionDate": "2026-04",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 77000
+      },
+      {
+        "month": "2025-09",
+        "price": 103000
+      },
+      {
+        "month": "2025-10",
+        "price": 77400
+      },
+      {
+        "month": "2025-11",
+        "price": 86500
+      },
+      {
+        "month": "2025-12",
+        "price": 78500
+      },
+      {
+        "month": "2026-01",
+        "price": 79000
+      },
+      {
+        "month": "2026-02",
+        "price": 79833
+      },
+      {
+        "month": "2026-03",
+        "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_050",
+    "name": "호평파라곤",
+    "district": "남양주시",
+    "neighborhood": "호평동",
+    "size평": 46.3,
+    "sizeM2": 153.18,
+    "floor": 7,
+    "totalFloors": 0,
+    "price": 66500,
+    "transactionDate": "2026-04",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 66000
+      },
+      {
+        "month": "2025-10",
+        "price": 65667
+      },
+      {
+        "month": "2026-01",
+        "price": 68500
+      },
+      {
+        "month": "2026-03",
+        "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_051",
     "name": "대림e편한세상1단지",
     "district": "남양주시",
     "neighborhood": "오남읍 양지리",
@@ -1136,7 +1881,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_039",
+    "id": "LIVE_052",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1181,40 +1926,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_040",
-    "name": "호평두산위브파크",
-    "district": "남양주시",
-    "neighborhood": "호평동",
-    "size평": 46,
-    "sizeM2": 151.9269,
-    "floor": 2,
-    "totalFloors": 0,
-    "price": 79000,
-    "transactionDate": "2026-04",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2009,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 83500
-      },
-      {
-        "month": "2025-09",
-        "price": 70000
-      },
-      {
-        "month": "2026-04",
-        "price": 79000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_041",
+    "id": "LIVE_053",
     "name": "진접하우스토리",
     "district": "남양주시",
     "neighborhood": "진접읍 장현리",
@@ -1243,7 +1963,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_042",
+    "id": "LIVE_054",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1288,11 +2008,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_043",
+    "id": "LIVE_055",
     "name": "플루리움2단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1306,10 +2030,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
       {
         "month": "2025-09",
         "price": 76500
@@ -1325,7 +2045,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_044",
+    "id": "LIVE_056",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -1340,10 +2060,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -1358,11 +2074,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_045",
+    "id": "LIVE_057",
     "name": "신도브래뉴",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -1377,10 +2101,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 73500
-      },
-      {
         "month": "2025-10",
         "price": 78500
       },
@@ -1391,7 +2111,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_046",
+    "id": "LIVE_058",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -1406,10 +2126,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -1424,11 +2140,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_047",
+    "id": "LIVE_059",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1443,10 +2167,6 @@ const SAMPLE_DATA = [
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 76750
-      },
-      {
         "month": "2025-08",
         "price": 77000
       },
@@ -1477,11 +2197,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_048",
+    "id": "LIVE_060",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -1495,10 +2223,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 80667
-      },
       {
         "month": "2025-07",
         "price": 66000
@@ -1514,11 +2238,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_049",
+    "id": "LIVE_061",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1532,10 +2264,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -1567,11 +2295,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_050",
+    "id": "LIVE_062",
     "name": "마석역신도브래뉴2차",
     "district": "남양주시",
     "neighborhood": "화도읍 묵현리",
@@ -1596,7 +2332,32 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_051",
+    "id": "LIVE_063",
+    "name": "신영지웰",
+    "district": "남양주시",
+    "neighborhood": "진접읍 금곡리",
+    "size평": 47.1,
+    "sizeM2": 155.773,
+    "floor": 11,
+    "totalFloors": 0,
+    "price": 76000,
+    "transactionDate": "2026-02",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2009,
+    "priceHistory": [
+      {
+        "month": "2025-10",
+        "price": 67700
+      },
+      {
+        "month": "2026-02",
+        "price": 71500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_064",
     "name": "덕소강변현대",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -1625,7 +2386,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_052",
+    "id": "LIVE_065",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -1640,10 +2401,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -1657,16 +2414,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_053",
+    "id": "LIVE_066",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1680,10 +2445,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -1715,11 +2476,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_054",
+    "id": "LIVE_067",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1764,11 +2533,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_055",
+    "id": "LIVE_068",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1782,10 +2555,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -1817,11 +2586,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_056",
+    "id": "LIVE_069",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1866,11 +2643,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_057",
+    "id": "LIVE_070",
     "name": "우창리버빌(101)",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -1891,7 +2672,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_058",
+    "id": "LIVE_071",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -1906,10 +2687,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -1923,16 +2700,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_059",
+    "id": "LIVE_072",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -1946,10 +2731,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -1981,11 +2762,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_060",
+    "id": "LIVE_073",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2030,40 +2819,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_061",
-    "name": "신영지웰",
-    "district": "남양주시",
-    "neighborhood": "진접읍 금곡리",
-    "size평": 47.1,
-    "sizeM2": 155.773,
-    "floor": 11,
-    "totalFloors": 0,
-    "price": 76000,
-    "transactionDate": "2026-02",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2009,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68750
-      },
-      {
-        "month": "2025-10",
-        "price": 67700
-      },
-      {
-        "month": "2026-02",
-        "price": 69250
-      }
-    ]
-  },
-  {
-    "id": "LIVE_062",
+    "id": "LIVE_074",
     "name": "신영지웰",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -2078,38 +2842,30 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68750
-      },
-      {
         "month": "2025-10",
         "price": 67700
       },
       {
         "month": "2026-02",
-        "price": 69250
+        "price": 71500
       }
     ]
   },
   {
-    "id": "LIVE_063",
+    "id": "LIVE_075",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
     "size평": 51.4,
     "sizeM2": 169.788,
-    "floor": 4,
+    "floor": 20,
     "totalFloors": 0,
-    "price": 79000,
+    "price": 105000,
     "transactionDate": "2026-01",
     "lat": 37.6359,
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82500
-      },
       {
         "month": "2025-08",
         "price": 94000
@@ -2124,16 +2880,69 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_064",
+    "id": "LIVE_076",
+    "name": "덕소두산위브",
+    "district": "남양주시",
+    "neighborhood": "와부읍 도곡리",
+    "size평": 51.4,
+    "sizeM2": 169.788,
+    "floor": 4,
+    "totalFloors": 0,
+    "price": 79000,
+    "transactionDate": "2026-01",
+    "lat": 37.6359,
+    "lng": 127.2162,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 94000
+      },
+      {
+        "month": "2025-09",
+        "price": 118625
+      },
+      {
+        "month": "2025-11",
+        "price": 91250
+      },
+      {
+        "month": "2026-01",
+        "price": 92000
+      },
+      {
+        "month": "2026-02",
+        "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_077",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -2147,10 +2956,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 80667
-      },
       {
         "month": "2025-07",
         "price": 66000
@@ -2166,11 +2971,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_065",
+    "id": "LIVE_078",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2215,11 +3028,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_066",
+    "id": "LIVE_079",
     "name": "진접하우스토리",
     "district": "남양주시",
     "neighborhood": "진접읍 장현리",
@@ -2248,7 +3065,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_067",
+    "id": "LIVE_080",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2293,11 +3110,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_068",
+    "id": "LIVE_081",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2311,10 +3132,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -2346,11 +3163,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_069",
+    "id": "LIVE_082",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2395,11 +3220,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_070",
+    "id": "LIVE_083",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -2414,10 +3243,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -2428,52 +3253,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_071",
-    "name": "덕소두산위브",
-    "district": "남양주시",
-    "neighborhood": "와부읍 도곡리",
-    "size평": 51.4,
-    "sizeM2": 169.788,
-    "floor": 20,
-    "totalFloors": 0,
-    "price": 105000,
-    "transactionDate": "2026-01",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2002,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
-        "month": "2025-08",
-        "price": 94000
-      },
-      {
-        "month": "2025-09",
-        "price": 118625
-      },
-      {
-        "month": "2025-11",
-        "price": 91250
-      },
-      {
-        "month": "2026-01",
-        "price": 87667
-      },
-      {
-        "month": "2026-02",
-        "price": 95000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_072",
+    "id": "LIVE_084",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -2487,10 +3275,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 80667
-      },
       {
         "month": "2025-07",
         "price": 66000
@@ -2506,11 +3290,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_073",
+    "id": "LIVE_085",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2524,10 +3316,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -2559,11 +3347,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_074",
+    "id": "LIVE_086",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2608,11 +3404,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_075",
+    "id": "LIVE_087",
     "name": "진도",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -2627,17 +3427,13 @@ const SAMPLE_DATA = [
     "buildYear": 1998,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 65500
-      },
-      {
         "month": "2025-11",
         "price": 67500
       }
     ]
   },
   {
-    "id": "LIVE_076",
+    "id": "LIVE_088",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2651,10 +3447,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -2686,11 +3478,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_077",
+    "id": "LIVE_089",
     "name": "플루리움2단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2704,10 +3504,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
       {
         "month": "2025-09",
         "price": 76500
@@ -2723,7 +3519,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_078",
+    "id": "LIVE_090",
     "name": "덕소강변현대",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -2752,7 +3548,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_079",
+    "id": "LIVE_091",
     "name": "덕소강변현대",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -2781,7 +3577,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_080",
+    "id": "LIVE_092",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -2796,10 +3592,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -2813,16 +3605,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_081",
+    "id": "LIVE_093",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -2837,10 +3637,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -2854,16 +3650,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_082",
+    "id": "LIVE_094",
     "name": "남양주오남푸르지오",
     "district": "남양주시",
     "neighborhood": "오남읍 오남리",
@@ -2888,7 +3692,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_083",
+    "id": "LIVE_095",
     "name": "남양주오남푸르지오",
     "district": "남양주시",
     "neighborhood": "오남읍 오남리",
@@ -2913,7 +3717,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_084",
+    "id": "LIVE_096",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -2928,10 +3732,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -2942,11 +3742,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_085",
+    "id": "LIVE_097",
     "name": "플루리움3단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2975,7 +3779,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_086",
+    "id": "LIVE_098",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -2989,10 +3793,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -3024,11 +3824,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_087",
+    "id": "LIVE_099",
     "name": "플루리움2단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3042,10 +3850,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
       {
         "month": "2025-09",
         "price": 76500
@@ -3061,7 +3865,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_088",
+    "id": "LIVE_100",
     "name": "신영지웰",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -3076,21 +3880,17 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68750
-      },
-      {
         "month": "2025-10",
         "price": 67700
       },
       {
         "month": "2026-02",
-        "price": 69250
+        "price": 71500
       }
     ]
   },
   {
-    "id": "LIVE_089",
+    "id": "LIVE_101",
     "name": "신도브래뉴",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -3105,10 +3905,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 73500
-      },
-      {
         "month": "2025-10",
         "price": 78500
       },
@@ -3119,7 +3915,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_090",
+    "id": "LIVE_102",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3164,11 +3960,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_091",
+    "id": "LIVE_103",
     "name": "플루리움3단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3197,7 +3997,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_092",
+    "id": "LIVE_104",
     "name": "원일에이플러스",
     "district": "남양주시",
     "neighborhood": "진접읍 장현리",
@@ -3218,7 +4018,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_093",
+    "id": "LIVE_105",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3233,10 +4033,6 @@ const SAMPLE_DATA = [
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 76750
-      },
-      {
         "month": "2025-08",
         "price": 77000
       },
@@ -3267,11 +4063,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_094",
+    "id": "LIVE_106",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -3286,10 +4090,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -3304,11 +4104,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_095",
+    "id": "LIVE_107",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -3323,10 +4131,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -3341,11 +4145,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_096",
+    "id": "LIVE_108",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -3360,10 +4172,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -3378,11 +4186,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_097",
+    "id": "LIVE_109",
     "name": "신도브래뉴",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -3397,10 +4213,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 73500
-      },
-      {
         "month": "2025-10",
         "price": 78500
       },
@@ -3411,7 +4223,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_098",
+    "id": "LIVE_110",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3425,10 +4237,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -3460,11 +4268,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_099",
+    "id": "LIVE_111",
     "name": "플루리움3단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3493,7 +4309,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_100",
+    "id": "LIVE_112",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3538,11 +4354,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_101",
+    "id": "LIVE_113",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3587,11 +4407,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_102",
+    "id": "LIVE_114",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3636,11 +4460,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_103",
+    "id": "LIVE_115",
     "name": "마석역신도브래뉴2차",
     "district": "남양주시",
     "neighborhood": "화도읍 묵현리",
@@ -3665,7 +4493,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_104",
+    "id": "LIVE_116",
     "name": "덕소강변현대",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -3694,7 +4522,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_105",
+    "id": "LIVE_117",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3739,11 +4567,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_106",
+    "id": "LIVE_118",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3788,11 +4620,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_107",
+    "id": "LIVE_119",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -3807,10 +4643,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -3824,16 +4656,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_108",
+    "id": "LIVE_120",
     "name": "덕소강변현대",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -3862,7 +4702,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_109",
+    "id": "LIVE_121",
     "name": "호평두산위브파크",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -3877,21 +4717,13 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 83500
-      },
-      {
         "month": "2025-09",
         "price": 70000
-      },
-      {
-        "month": "2026-04",
-        "price": 79000
       }
     ]
   },
   {
-    "id": "LIVE_110",
+    "id": "LIVE_122",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -3906,10 +4738,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -3923,16 +4751,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_111",
+    "id": "LIVE_123",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -3946,10 +4782,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -3981,11 +4813,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_112",
+    "id": "LIVE_124",
     "name": "진접하우스토리",
     "district": "남양주시",
     "neighborhood": "진접읍 장현리",
@@ -4014,7 +4854,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_113",
+    "id": "LIVE_125",
     "name": "플루리움2단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4028,10 +4868,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
       {
         "month": "2025-09",
         "price": 76500
@@ -4047,7 +4883,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_114",
+    "id": "LIVE_126",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -4062,10 +4898,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -4076,11 +4908,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_115",
+    "id": "LIVE_127",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -4095,10 +4931,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -4109,11 +4941,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_116",
+    "id": "LIVE_128",
     "name": "플루리움4,5단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4158,11 +4994,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 101000
+      },
+      {
+        "month": "2026-05",
+        "price": 82300
       }
     ]
   },
   {
-    "id": "LIVE_117",
+    "id": "LIVE_129",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4176,10 +5016,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
       {
         "month": "2025-08",
         "price": 77000
@@ -4211,11 +5047,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_118",
+    "id": "LIVE_130",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -4230,10 +5074,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -4247,16 +5087,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_119",
+    "id": "LIVE_131",
     "name": "플루리움3단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4285,7 +5133,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_120",
+    "id": "LIVE_132",
     "name": "남양주오남푸르지오",
     "district": "남양주시",
     "neighborhood": "오남읍 오남리",
@@ -4310,7 +5158,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_121",
+    "id": "LIVE_133",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4325,10 +5173,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4343,11 +5187,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_122",
+    "id": "LIVE_134",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4362,10 +5214,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4380,11 +5228,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_123",
+    "id": "LIVE_135",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4399,10 +5255,6 @@ const SAMPLE_DATA = [
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 76750
-      },
-      {
         "month": "2025-08",
         "price": 77000
       },
@@ -4433,11 +5285,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_124",
+    "id": "LIVE_136",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4452,10 +5312,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4470,11 +5326,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_125",
+    "id": "LIVE_137",
     "name": "덕소두산위브",
     "district": "남양주시",
     "neighborhood": "와부읍 도곡리",
@@ -4489,10 +5353,6 @@ const SAMPLE_DATA = [
     "buildYear": 2002,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
         "month": "2025-08",
         "price": 94000
       },
@@ -4506,16 +5366,24 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-01",
-        "price": 87667
+        "price": 92000
       },
       {
         "month": "2026-02",
         "price": 95000
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 99000
       }
     ]
   },
   {
-    "id": "LIVE_126",
+    "id": "LIVE_138",
     "name": "신영지웰",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -4530,21 +5398,17 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68750
-      },
-      {
         "month": "2025-10",
         "price": 67700
       },
       {
         "month": "2026-02",
-        "price": 69250
+        "price": 71500
       }
     ]
   },
   {
-    "id": "LIVE_127",
+    "id": "LIVE_139",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4559,10 +5423,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4577,11 +5437,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_128",
+    "id": "LIVE_140",
     "name": "신영지웰",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -4596,21 +5464,17 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68750
-      },
-      {
         "month": "2025-10",
         "price": 67700
       },
       {
         "month": "2026-02",
-        "price": 69250
+        "price": 71500
       }
     ]
   },
   {
-    "id": "LIVE_129",
+    "id": "LIVE_141",
     "name": "신도브래뉴",
     "district": "남양주시",
     "neighborhood": "진접읍 금곡리",
@@ -4625,10 +5489,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 73500
-      },
-      {
         "month": "2025-10",
         "price": 78500
       },
@@ -4639,7 +5499,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_130",
+    "id": "LIVE_142",
     "name": "플루리움2단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4653,10 +5513,6 @@ const SAMPLE_DATA = [
     "lng": 127.2162,
     "buildYear": 2002,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
       {
         "month": "2025-09",
         "price": 76500
@@ -4672,7 +5528,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_131",
+    "id": "LIVE_143",
     "name": "호평두산위브파크",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4687,21 +5543,13 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 83500
-      },
-      {
         "month": "2025-09",
         "price": 70000
-      },
-      {
-        "month": "2026-04",
-        "price": 79000
       }
     ]
   },
   {
-    "id": "LIVE_132",
+    "id": "LIVE_144",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -4716,10 +5564,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -4730,11 +5574,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_133",
+    "id": "LIVE_145",
     "name": "진도",
     "district": "남양주시",
     "neighborhood": "와부읍 덕소리",
@@ -4749,17 +5597,13 @@ const SAMPLE_DATA = [
     "buildYear": 1998,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 65500
-      },
-      {
         "month": "2025-11",
         "price": 67500
       }
     ]
   },
   {
-    "id": "LIVE_134",
+    "id": "LIVE_146",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4774,10 +5618,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4792,11 +5632,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_135",
+    "id": "LIVE_147",
     "name": "플루리움1단지",
     "district": "남양주시",
     "neighborhood": "다산동",
@@ -4811,10 +5659,6 @@ const SAMPLE_DATA = [
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 76750
-      },
-      {
         "month": "2025-08",
         "price": 77000
       },
@@ -4845,11 +5689,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 75500
+      },
+      {
+        "month": "2026-04",
+        "price": 85000
+      },
+      {
+        "month": "2026-05",
+        "price": 80800
       }
     ]
   },
   {
-    "id": "LIVE_136",
+    "id": "LIVE_148",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4864,10 +5716,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4882,11 +5730,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_137",
+    "id": "LIVE_149",
     "name": "진접센트레빌시티1단지",
     "district": "남양주시",
     "neighborhood": "진접읍 부평리",
@@ -4901,10 +5757,6 @@ const SAMPLE_DATA = [
     "buildYear": 2009,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50500
-      },
-      {
         "month": "2025-09",
         "price": 49250
       },
@@ -4915,11 +5767,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 47000
+      },
+      {
+        "month": "2026-05",
+        "price": 53000
       }
     ]
   },
   {
-    "id": "LIVE_138",
+    "id": "LIVE_150",
     "name": "호평파라곤",
     "district": "남양주시",
     "neighborhood": "호평동",
@@ -4934,10 +5790,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
         "month": "2025-07",
         "price": 66000
       },
@@ -4952,298 +5804,52 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 79167
+      },
+      {
+        "month": "2026-04",
+        "price": 66500
+      },
+      {
+        "month": "2026-05",
+        "price": 63500
       }
     ]
   },
   {
-    "id": "LIVE_139",
-    "name": "덕소두산위브",
-    "district": "남양주시",
-    "neighborhood": "와부읍 도곡리",
-    "size평": 51.4,
-    "sizeM2": 169.788,
-    "floor": 10,
-    "totalFloors": 0,
-    "price": 85000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2002,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82500
-      },
-      {
-        "month": "2025-08",
-        "price": 94000
-      },
-      {
-        "month": "2025-09",
-        "price": 118625
-      },
-      {
-        "month": "2025-11",
-        "price": 91250
-      },
-      {
-        "month": "2026-01",
-        "price": 87667
-      },
-      {
-        "month": "2026-02",
-        "price": 95000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_140",
-    "name": "호평파라곤",
-    "district": "남양주시",
-    "neighborhood": "호평동",
-    "size평": 46.3,
-    "sizeM2": 153.18,
-    "floor": 13,
-    "totalFloors": 0,
-    "price": 70000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 80667
-      },
-      {
-        "month": "2025-07",
-        "price": 66000
-      },
-      {
-        "month": "2025-10",
-        "price": 65667
-      },
-      {
-        "month": "2026-01",
-        "price": 68500
-      },
-      {
-        "month": "2026-03",
-        "price": 79167
-      }
-    ]
-  },
-  {
-    "id": "LIVE_141",
-    "name": "대원칸타빌",
-    "district": "남양주시",
-    "neighborhood": "별내동",
-    "size평": 45.7,
-    "sizeM2": 151.17,
+    "id": "LIVE_151",
+    "name": "신일유토빌",
+    "district": "의정부시",
+    "neighborhood": "호원동",
+    "size평": 45.1,
+    "sizeM2": 148.98,
     "floor": 1,
     "totalFloors": 0,
-    "price": 80000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2012,
-    "priceHistory": []
-  },
-  {
-    "id": "LIVE_142",
-    "name": "금곡GS",
-    "district": "남양주시",
-    "neighborhood": "금곡동",
-    "size평": 47,
-    "sizeM2": 155.28,
-    "floor": 18,
-    "totalFloors": 0,
-    "price": 55000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 1997,
-    "priceHistory": []
-  },
-  {
-    "id": "LIVE_143",
-    "name": "덕소강변현대",
-    "district": "남양주시",
-    "neighborhood": "와부읍 덕소리",
-    "size평": 57.1,
-    "sizeM2": 188.76,
-    "floor": 5,
-    "totalFloors": 0,
-    "price": 93000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2001,
+    "price": 73500,
+    "transactionDate": "2026-05",
+    "lat": 37.7381,
+    "lng": 127.0337,
+    "buildYear": 2003,
     "priceHistory": [
       {
         "month": "2025-09",
-        "price": 92500
-      },
-      {
-        "month": "2025-11",
-        "price": 103250
-      },
-      {
-        "month": "2026-02",
-        "price": 85000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_144",
-    "name": "플루리움2단지",
-    "district": "남양주시",
-    "neighborhood": "다산동",
-    "size평": 49.1,
-    "sizeM2": 162.454,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 74500,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2002,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
-      {
-        "month": "2025-09",
-        "price": 76500
-      },
-      {
-        "month": "2025-11",
-        "price": 76750
-      },
-      {
-        "month": "2026-03",
-        "price": 77500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_145",
-    "name": "플루리움3단지",
-    "district": "남양주시",
-    "neighborhood": "다산동",
-    "size평": 55.3,
-    "sizeM2": 182.767,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 82000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-08",
-        "price": 78000
-      },
-      {
-        "month": "2025-10",
-        "price": 90500
-      },
-      {
-        "month": "2025-11",
-        "price": 77500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_146",
-    "name": "플루리움1단지",
-    "district": "남양주시",
-    "neighborhood": "다산동",
-    "size평": 55.3,
-    "sizeM2": 182.767,
-    "floor": 6,
-    "totalFloors": 0,
-    "price": 93000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 76750
-      },
-      {
-        "month": "2025-08",
-        "price": 77000
-      },
-      {
-        "month": "2025-09",
-        "price": 103000
-      },
-      {
-        "month": "2025-10",
-        "price": 77400
-      },
-      {
-        "month": "2025-11",
-        "price": 86500
-      },
-      {
-        "month": "2025-12",
-        "price": 78500
-      },
-      {
-        "month": "2026-01",
         "price": 79000
       },
       {
-        "month": "2026-02",
-        "price": 79833
-      },
-      {
-        "month": "2026-03",
-        "price": 75500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_147",
-    "name": "플루리움2단지",
-    "district": "남양주시",
-    "neighborhood": "다산동",
-    "size평": 49.1,
-    "sizeM2": 162.454,
-    "floor": 21,
-    "totalFloors": 0,
-    "price": 80000,
-    "transactionDate": "2025-05",
-    "lat": 37.6359,
-    "lng": 127.2162,
-    "buildYear": 2002,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 74500
-      },
-      {
-        "month": "2025-09",
-        "price": 76500
-      },
-      {
         "month": "2025-11",
-        "price": 76750
+        "price": 71500
       },
       {
         "month": "2026-03",
-        "price": 77500
+        "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_148",
+    "id": "LIVE_152",
     "name": "신일유토빌",
     "district": "의정부시",
     "neighborhood": "호원동",
@@ -5258,10 +5864,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-09",
         "price": 79000
       },
@@ -5272,11 +5874,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_149",
+    "id": "LIVE_153",
     "name": "신일유토빌",
     "district": "의정부시",
     "neighborhood": "호원동",
@@ -5291,10 +5897,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-09",
         "price": 79000
       },
@@ -5305,11 +5907,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_150",
+    "id": "LIVE_154",
     "name": "신일유토빌",
     "district": "의정부시",
     "neighborhood": "호원동",
@@ -5324,10 +5930,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-09",
         "price": 79000
       },
@@ -5338,11 +5940,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_151",
+    "id": "LIVE_155",
     "name": "신일유토빌",
     "district": "의정부시",
     "neighborhood": "호원동",
@@ -5357,10 +5963,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-09",
         "price": 79000
       },
@@ -5371,11 +5973,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_152",
+    "id": "LIVE_156",
     "name": "신일유토빌",
     "district": "의정부시",
     "neighborhood": "호원동",
@@ -5390,10 +5996,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-09",
         "price": 79000
       },
@@ -5404,11 +6006,127 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 81000
+      },
+      {
+        "month": "2026-05",
+        "price": 73500
       }
     ]
   },
   {
-    "id": "LIVE_153",
+    "id": "LIVE_157",
+    "name": "동일하이빌",
+    "district": "하남시",
+    "neighborhood": "신장동",
+    "size평": 54.9,
+    "sizeM2": 181.64,
+    "floor": 5,
+    "totalFloors": 0,
+    "price": 90000,
+    "transactionDate": "2026-05",
+    "lat": 37.5391,
+    "lng": 127.2148,
+    "buildYear": 1999,
+    "priceHistory": [
+      {
+        "month": "2026-03",
+        "price": 100000
+      },
+      {
+        "month": "2026-04",
+        "price": 87000
+      },
+      {
+        "month": "2026-05",
+        "price": 89333
+      }
+    ]
+  },
+  {
+    "id": "LIVE_158",
+    "name": "하남두산위브파크",
+    "district": "하남시",
+    "neighborhood": "신장동",
+    "size평": 46.5,
+    "sizeM2": 153.67,
+    "floor": 10,
+    "totalFloors": 0,
+    "price": 105000,
+    "transactionDate": "2026-05",
+    "lat": 37.5391,
+    "lng": 127.2148,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 108000
+      },
+      {
+        "month": "2026-05",
+        "price": 105000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_159",
+    "name": "동일하이빌",
+    "district": "하남시",
+    "neighborhood": "신장동",
+    "size평": 54.9,
+    "sizeM2": 181.64,
+    "floor": 6,
+    "totalFloors": 0,
+    "price": 88000,
+    "transactionDate": "2026-05",
+    "lat": 37.5391,
+    "lng": 127.2148,
+    "buildYear": 1999,
+    "priceHistory": [
+      {
+        "month": "2026-03",
+        "price": 100000
+      },
+      {
+        "month": "2026-04",
+        "price": 87000
+      },
+      {
+        "month": "2026-05",
+        "price": 89333
+      }
+    ]
+  },
+  {
+    "id": "LIVE_160",
+    "name": "동일하이빌",
+    "district": "하남시",
+    "neighborhood": "신장동",
+    "size평": 54.9,
+    "sizeM2": 181.64,
+    "floor": 11,
+    "totalFloors": 0,
+    "price": 87000,
+    "transactionDate": "2026-04",
+    "lat": 37.5391,
+    "lng": 127.2148,
+    "buildYear": 1999,
+    "priceHistory": [
+      {
+        "month": "2026-03",
+        "price": 100000
+      },
+      {
+        "month": "2026-04",
+        "price": 87000
+      },
+      {
+        "month": "2026-05",
+        "price": 89333
+      }
+    ]
+  },
+  {
+    "id": "LIVE_161",
     "name": "동일하이빌",
     "district": "하남시",
     "neighborhood": "신장동",
@@ -5425,11 +6143,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 100000
+      },
+      {
+        "month": "2026-04",
+        "price": 87000
+      },
+      {
+        "month": "2026-05",
+        "price": 89333
       }
     ]
   },
   {
-    "id": "LIVE_154",
+    "id": "LIVE_162",
     "name": "하남두산위브파크",
     "district": "하남시",
     "neighborhood": "신장동",
@@ -5446,11 +6172,40 @@ const SAMPLE_DATA = [
       {
         "month": "2025-07",
         "price": 108000
+      },
+      {
+        "month": "2026-05",
+        "price": 105000
       }
     ]
   },
   {
-    "id": "LIVE_155",
+    "id": "LIVE_163",
+    "name": "한라비발디",
+    "district": "안양시",
+    "neighborhood": "박달동",
+    "size평": 53,
+    "sizeM2": 175.236,
+    "floor": 18,
+    "totalFloors": 0,
+    "price": 82000,
+    "transactionDate": "2026-05",
+    "lat": 37.3943,
+    "lng": 126.9568,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2026-01",
+        "price": 76500
+      },
+      {
+        "month": "2026-05",
+        "price": 82000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_164",
     "name": "한라비발디",
     "district": "안양시",
     "neighborhood": "박달동",
@@ -5467,11 +6222,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 76500
+      },
+      {
+        "month": "2026-05",
+        "price": 82000
       }
     ]
   },
   {
-    "id": "LIVE_156",
+    "id": "LIVE_165",
     "name": "신안",
     "district": "안양시",
     "neighborhood": "박달동",
@@ -5492,7 +6251,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_157",
+    "id": "LIVE_166",
     "name": "우남퍼스트빌",
     "district": "군포시",
     "neighborhood": "능곡동",
@@ -5513,7 +6272,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_158",
+    "id": "LIVE_167",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5550,7 +6309,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_159",
+    "id": "LIVE_168",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5587,7 +6346,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_160",
+    "id": "LIVE_169",
     "name": "해가든더클래식",
     "district": "군포시",
     "neighborhood": "미산동",
@@ -5620,7 +6379,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_161",
+    "id": "LIVE_170",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5657,7 +6416,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_162",
+    "id": "LIVE_171",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5694,7 +6453,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_163",
+    "id": "LIVE_172",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5731,7 +6490,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_164",
+    "id": "LIVE_173",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5768,7 +6527,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_165",
+    "id": "LIVE_174",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5805,7 +6564,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_166",
+    "id": "LIVE_175",
     "name": "해가든더클래식",
     "district": "군포시",
     "neighborhood": "미산동",
@@ -5838,7 +6597,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_167",
+    "id": "LIVE_176",
     "name": "해가든더클래식",
     "district": "군포시",
     "neighborhood": "미산동",
@@ -5871,7 +6630,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_168",
+    "id": "LIVE_177",
     "name": "풍림아이원1차",
     "district": "군포시",
     "neighborhood": "월곶동",
@@ -5908,7 +6667,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_169",
+    "id": "LIVE_178",
     "name": "해가든더클래식",
     "district": "군포시",
     "neighborhood": "미산동",
@@ -5941,7 +6700,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_170",
+    "id": "LIVE_179",
     "name": "의왕내손e편한세상",
     "district": "의왕시",
     "neighborhood": "내손동",
@@ -5970,7 +6729,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_171",
+    "id": "LIVE_180",
     "name": "의왕내손e편한세상",
     "district": "의왕시",
     "neighborhood": "내손동",
@@ -5999,7 +6758,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_172",
+    "id": "LIVE_181",
     "name": "의왕내손e편한세상",
     "district": "의왕시",
     "neighborhood": "내손동",
@@ -6028,36 +6787,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_173",
-    "name": "의왕내손e편한세상",
-    "district": "의왕시",
-    "neighborhood": "내손동",
-    "size평": 47.9,
-    "sizeM2": 158.416,
-    "floor": 13,
-    "totalFloors": 0,
-    "price": 125000,
-    "transactionDate": "2025-05",
-    "lat": 37.3448,
-    "lng": 126.9688,
-    "buildYear": 2012,
-    "priceHistory": [
-      {
-        "month": "2025-09",
-        "price": 121500
-      },
-      {
-        "month": "2025-10",
-        "price": 120000
-      },
-      {
-        "month": "2026-04",
-        "price": 124000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_174",
+    "id": "LIVE_182",
     "name": "청솔마을SK한화",
     "district": "수원시",
     "neighborhood": "정자동",
@@ -6086,7 +6816,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_175",
+    "id": "LIVE_183",
     "name": "청솔마을SK한화",
     "district": "수원시",
     "neighborhood": "정자동",
@@ -6115,7 +6845,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_176",
+    "id": "LIVE_184",
     "name": "청솔마을SK한화",
     "district": "수원시",
     "neighborhood": "정자동",
@@ -6144,36 +6874,286 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_177",
-    "name": "청솔마을SK한화",
-    "district": "수원시",
-    "neighborhood": "정자동",
-    "size평": 47.6,
-    "sizeM2": 157.439,
-    "floor": 23,
+    "id": "LIVE_185",
+    "name": "유현마을(현대프라임빌)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 53.4,
+    "sizeM2": 176.65,
+    "floor": 7,
     "totalFloors": 0,
-    "price": 83000,
-    "transactionDate": "2025-05",
-    "lat": 37.2636,
-    "lng": 127.0286,
-    "buildYear": 2002,
+    "price": 54300,
+    "transactionDate": "2026-05",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-07",
-        "price": 84000
+        "month": "2025-09",
+        "price": 50000
       },
       {
-        "month": "2025-11",
-        "price": 82000
+        "month": "2025-10",
+        "price": 69000
+      },
+      {
+        "month": "2025-12",
+        "price": 71850
       },
       {
         "month": "2026-02",
-        "price": 82000
+        "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_178",
+    "id": "LIVE_186",
+    "name": "유현마을(현대프라임빌)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 65.8,
+    "sizeM2": 217.5,
+    "floor": 20,
+    "totalFloors": 0,
+    "price": 64000,
+    "transactionDate": "2026-05",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2003,
+    "priceHistory": [
+      {
+        "month": "2025-09",
+        "price": 50000
+      },
+      {
+        "month": "2025-10",
+        "price": 69000
+      },
+      {
+        "month": "2025-12",
+        "price": 71850
+      },
+      {
+        "month": "2026-02",
+        "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
+      }
+    ]
+  },
+  {
+    "id": "LIVE_187",
+    "name": "수기마을힐스테이트2단지",
+    "district": "김포시",
+    "neighborhood": "고촌읍 신곡리",
+    "size평": 46,
+    "sizeM2": 152.07,
+    "floor": 4,
+    "totalFloors": 0,
+    "price": 86800,
+    "transactionDate": "2026-05",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2008,
+    "priceHistory": [
+      {
+        "month": "2025-10",
+        "price": 90000
+      },
+      {
+        "month": "2026-01",
+        "price": 87700
+      },
+      {
+        "month": "2026-05",
+        "price": 86800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_188",
+    "name": "양도마을(서해그랑블)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 59.5,
+    "sizeM2": 196.7425,
+    "floor": 9,
+    "totalFloors": 0,
+    "price": 53000,
+    "transactionDate": "2026-05",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 49400
+      },
+      {
+        "month": "2025-08",
+        "price": 52000
+      },
+      {
+        "month": "2025-09",
+        "price": 46950
+      },
+      {
+        "month": "2025-10",
+        "price": 47150
+      },
+      {
+        "month": "2025-11",
+        "price": 52033
+      },
+      {
+        "month": "2026-01",
+        "price": 49667
+      },
+      {
+        "month": "2026-03",
+        "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_189",
+    "name": "양도마을(서해그랑블)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 59.5,
+    "sizeM2": 196.7425,
+    "floor": 14,
+    "totalFloors": 0,
+    "price": 54000,
+    "transactionDate": "2026-05",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 49400
+      },
+      {
+        "month": "2025-08",
+        "price": 52000
+      },
+      {
+        "month": "2025-09",
+        "price": 46950
+      },
+      {
+        "month": "2025-10",
+        "price": 47150
+      },
+      {
+        "month": "2025-11",
+        "price": 52033
+      },
+      {
+        "month": "2026-01",
+        "price": 49667
+      },
+      {
+        "month": "2026-03",
+        "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_190",
+    "name": "장릉마을(삼성쉐르빌)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 57.2,
+    "sizeM2": 189.22,
+    "floor": 14,
+    "totalFloors": 0,
+    "price": 38300,
+    "transactionDate": "2026-04",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-11",
+        "price": 39500
+      },
+      {
+        "month": "2025-12",
+        "price": 40000
+      },
+      {
+        "month": "2026-04",
+        "price": 38300
+      }
+    ]
+  },
+  {
+    "id": "LIVE_191",
+    "name": "유현마을(현대프라임빌)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 53.4,
+    "sizeM2": 176.65,
+    "floor": 7,
+    "totalFloors": 0,
+    "price": 58600,
+    "transactionDate": "2026-04",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2003,
+    "priceHistory": [
+      {
+        "month": "2025-09",
+        "price": 50000
+      },
+      {
+        "month": "2025-10",
+        "price": 69000
+      },
+      {
+        "month": "2025-12",
+        "price": 71850
+      },
+      {
+        "month": "2026-02",
+        "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
+      }
+    ]
+  },
+  {
+    "id": "LIVE_192",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6214,7 +7194,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_179",
+    "id": "LIVE_193",
     "name": "김포한강신안실크밸리3차",
     "district": "김포시",
     "neighborhood": "감정동",
@@ -6229,17 +7209,13 @@ const SAMPLE_DATA = [
     "buildYear": 2012,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 60000
-      },
-      {
         "month": "2026-04",
         "price": 57500
       }
     ]
   },
   {
-    "id": "LIVE_180",
+    "id": "LIVE_194",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6253,10 +7229,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -6288,7 +7260,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_181",
+    "id": "LIVE_195",
     "name": "김포고촌우방아이유쉘",
     "district": "김포시",
     "neighborhood": "고촌읍 신곡리",
@@ -6309,7 +7281,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_182",
+    "id": "LIVE_196",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6350,7 +7322,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_183",
+    "id": "LIVE_197",
     "name": "전원마을(월드4차2단지)",
     "district": "김포시",
     "neighborhood": "운양동",
@@ -6375,7 +7347,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_184",
+    "id": "LIVE_198",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6390,10 +7362,6 @@ const SAMPLE_DATA = [
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
         "month": "2025-07",
         "price": 74375
       },
@@ -6424,7 +7392,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_185",
+    "id": "LIVE_199",
     "name": "오스타파라곤3단지",
     "district": "김포시",
     "neighborhood": "걸포동",
@@ -6439,10 +7407,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-07",
         "price": 67000
       },
@@ -6461,7 +7425,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_186",
+    "id": "LIVE_200",
     "name": "오스타파라곤3단지",
     "district": "김포시",
     "neighborhood": "걸포동",
@@ -6476,10 +7440,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
         "month": "2025-07",
         "price": 67000
       },
@@ -6498,7 +7458,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_187",
+    "id": "LIVE_201",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6512,10 +7472,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -6547,7 +7503,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_188",
+    "id": "LIVE_202",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -6561,10 +7517,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -6592,11 +7544,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_189",
+    "id": "LIVE_203",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6610,10 +7566,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -6645,7 +7597,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_190",
+    "id": "LIVE_204",
     "name": "전원마을(월드3차1단지)",
     "district": "김포시",
     "neighborhood": "운양동",
@@ -6666,7 +7618,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_191",
+    "id": "LIVE_205",
     "name": "전원마을(월드5차3단지)",
     "district": "김포시",
     "neighborhood": "운양동",
@@ -6691,7 +7643,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_192",
+    "id": "LIVE_206",
     "name": "오스타파라곤3단지",
     "district": "김포시",
     "neighborhood": "걸포동",
@@ -6705,10 +7657,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 75000
-      },
       {
         "month": "2025-07",
         "price": 67000
@@ -6728,7 +7676,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_193",
+    "id": "LIVE_207",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -6742,10 +7690,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2003,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68500
-      },
       {
         "month": "2025-09",
         "price": 50000
@@ -6761,11 +7705,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_194",
+    "id": "LIVE_208",
     "name": "수기마을힐스테이트3단지",
     "district": "김포시",
     "neighborhood": "고촌읍 신곡리",
@@ -6790,7 +7742,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_195",
+    "id": "LIVE_209",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6831,7 +7783,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_196",
+    "id": "LIVE_210",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -6845,10 +7797,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2003,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68500
-      },
       {
         "month": "2025-09",
         "price": 50000
@@ -6864,11 +7812,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_197",
+    "id": "LIVE_211",
     "name": "풍년마을(삼성)",
     "district": "김포시",
     "neighborhood": "북변동",
@@ -6893,7 +7849,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_198",
+    "id": "LIVE_212",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -6907,10 +7863,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -6942,7 +7894,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_199",
+    "id": "LIVE_213",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -6957,10 +7909,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -6987,11 +7935,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_200",
+    "id": "LIVE_214",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7006,10 +7958,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -7036,11 +7984,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_201",
+    "id": "LIVE_215",
     "name": "수기마을힐스테이트2단지",
     "district": "김포시",
     "neighborhood": "고촌읍 신곡리",
@@ -7061,11 +8013,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 87700
+      },
+      {
+        "month": "2026-05",
+        "price": 86800
       }
     ]
   },
   {
-    "id": "LIVE_202",
+    "id": "LIVE_216",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7079,10 +8035,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -7110,11 +8062,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_203",
+    "id": "LIVE_217",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -7155,7 +8111,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_204",
+    "id": "LIVE_218",
     "name": "장릉마을(삼성쉐르빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7176,11 +8132,15 @@ const SAMPLE_DATA = [
       {
         "month": "2025-12",
         "price": 40000
+      },
+      {
+        "month": "2026-04",
+        "price": 38300
       }
     ]
   },
   {
-    "id": "LIVE_205",
+    "id": "LIVE_219",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -7194,10 +8154,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -7229,7 +8185,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_206",
+    "id": "LIVE_220",
     "name": "수기마을힐스테이트3단지",
     "district": "김포시",
     "neighborhood": "고촌읍 신곡리",
@@ -7254,7 +8210,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_207",
+    "id": "LIVE_221",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7269,10 +8225,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68500
-      },
-      {
         "month": "2025-09",
         "price": 50000
       },
@@ -7287,11 +8239,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_208",
+    "id": "LIVE_222",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7306,10 +8266,6 @@ const SAMPLE_DATA = [
     "buildYear": 2003,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 68500
-      },
-      {
         "month": "2025-09",
         "price": 50000
       },
@@ -7324,11 +8280,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_209",
+    "id": "LIVE_223",
     "name": "풍무자이2단지",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7343,17 +8307,13 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 60000
-      },
-      {
         "month": "2025-12",
         "price": 59500
       }
     ]
   },
   {
-    "id": "LIVE_210",
+    "id": "LIVE_224",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7368,10 +8328,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -7398,11 +8354,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_211",
+    "id": "LIVE_225",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7417,10 +8377,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -7447,11 +8403,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_212",
+    "id": "LIVE_226",
     "name": "장릉마을(삼성쉐르빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7472,11 +8432,15 @@ const SAMPLE_DATA = [
       {
         "month": "2025-12",
         "price": 40000
+      },
+      {
+        "month": "2026-04",
+        "price": 38300
       }
     ]
   },
   {
-    "id": "LIVE_213",
+    "id": "LIVE_227",
     "name": "수기마을힐스테이트2단지",
     "district": "김포시",
     "neighborhood": "고촌읍 신곡리",
@@ -7497,11 +8461,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-01",
         "price": 87700
+      },
+      {
+        "month": "2026-05",
+        "price": 86800
       }
     ]
   },
   {
-    "id": "LIVE_214",
+    "id": "LIVE_228",
     "name": "농장마을(신안)",
     "district": "김포시",
     "neighborhood": "사우동",
@@ -7516,10 +8484,6 @@ const SAMPLE_DATA = [
     "buildYear": 1998,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 36500
-      },
-      {
         "month": "2025-07",
         "price": 37500
       },
@@ -7530,7 +8494,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_215",
+    "id": "LIVE_229",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7544,10 +8508,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -7575,11 +8535,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_216",
+    "id": "LIVE_230",
     "name": "전원마을(월드4차2단지)",
     "district": "김포시",
     "neighborhood": "운양동",
@@ -7604,7 +8568,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_217",
+    "id": "LIVE_231",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -7618,10 +8582,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -7653,7 +8613,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_218",
+    "id": "LIVE_232",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7667,10 +8627,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2003,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68500
-      },
       {
         "month": "2025-09",
         "price": 50000
@@ -7686,11 +8642,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_219",
+    "id": "LIVE_233",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7704,10 +8668,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -7735,11 +8695,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_220",
+    "id": "LIVE_234",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -7780,7 +8744,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_221",
+    "id": "LIVE_235",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7794,10 +8758,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -7825,11 +8785,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_222",
+    "id": "LIVE_236",
     "name": "유현마을(현대프라임빌)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7843,10 +8807,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2003,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68500
-      },
       {
         "month": "2025-09",
         "price": 50000
@@ -7862,11 +8822,19 @@ const SAMPLE_DATA = [
       {
         "month": "2026-02",
         "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
       }
     ]
   },
   {
-    "id": "LIVE_223",
+    "id": "LIVE_237",
     "name": "풍년마을(삼성)",
     "district": "김포시",
     "neighborhood": "북변동",
@@ -7891,7 +8859,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_224",
+    "id": "LIVE_238",
     "name": "청송마을(현대3)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -7932,7 +8900,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_225",
+    "id": "LIVE_239",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7947,10 +8915,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -7977,11 +8941,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_226",
+    "id": "LIVE_240",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -7996,10 +8964,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -8026,11 +8990,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_227",
+    "id": "LIVE_241",
     "name": "오스타파라곤3단지",
     "district": "김포시",
     "neighborhood": "걸포동",
@@ -8044,10 +9012,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 75000
-      },
       {
         "month": "2025-07",
         "price": 67000
@@ -8067,7 +9031,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_228",
+    "id": "LIVE_242",
     "name": "전원마을(월드5차3단지)",
     "district": "김포시",
     "neighborhood": "운양동",
@@ -8092,7 +9056,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_229",
+    "id": "LIVE_243",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -8107,10 +9071,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -8137,11 +9097,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_230",
+    "id": "LIVE_244",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
@@ -8156,10 +9120,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
         "month": "2025-07",
         "price": 49400
       },
@@ -8186,11 +9146,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
+      },
+      {
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
-    "id": "LIVE_231",
+    "id": "LIVE_245",
     "name": "농장마을(신안)",
     "district": "김포시",
     "neighborhood": "사우동",
@@ -8205,10 +9169,6 @@ const SAMPLE_DATA = [
     "buildYear": 1998,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 36500
-      },
-      {
         "month": "2025-07",
         "price": 37500
       },
@@ -8219,7 +9179,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_232",
+    "id": "LIVE_246",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -8233,10 +9193,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -8268,7 +9224,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_233",
+    "id": "LIVE_247",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
@@ -8282,584 +9238,6 @@ const SAMPLE_DATA = [
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_234",
-    "name": "푸른마을(신안)",
-    "district": "김포시",
-    "neighborhood": "감정동",
-    "size평": 61.2,
-    "sizeM2": 202.194,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 44000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-07",
-        "price": 44000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_235",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 62.3,
-    "sizeM2": 205.854,
-    "floor": 9,
-    "totalFloors": 0,
-    "price": 90000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_236",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 5,
-    "totalFloors": 0,
-    "price": 72000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_237",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 6,
-    "totalFloors": 0,
-    "price": 65000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_238",
-    "name": "오스타파라곤3단지",
-    "district": "김포시",
-    "neighborhood": "걸포동",
-    "size평": 47.6,
-    "sizeM2": 157.42,
-    "floor": 2,
-    "totalFloors": 0,
-    "price": 67000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
-        "month": "2025-07",
-        "price": 67000
-      },
-      {
-        "month": "2025-08",
-        "price": 80000
-      },
-      {
-        "month": "2026-02",
-        "price": 68500
-      },
-      {
-        "month": "2026-03",
-        "price": 70250
-      }
-    ]
-  },
-  {
-    "id": "LIVE_239",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 20,
-    "totalFloors": 0,
-    "price": 68000,
-    "transactionDate": "2025-07",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_240",
-    "name": "풍무자이2단지",
-    "district": "김포시",
-    "neighborhood": "풍무동",
-    "size평": 47.2,
-    "sizeM2": 156.0857,
-    "floor": 12,
-    "totalFloors": 0,
-    "price": 60000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 60000
-      },
-      {
-        "month": "2025-12",
-        "price": 59500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_241",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 4,
-    "totalFloors": 0,
-    "price": 61000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_242",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 5,
-    "totalFloors": 0,
-    "price": 65000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_243",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 3,
-    "totalFloors": 0,
-    "price": 65000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
-        "month": "2025-07",
-        "price": 74375
-      },
-      {
-        "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_244",
-    "name": "오스타파라곤3단지",
-    "district": "김포시",
-    "neighborhood": "걸포동",
-    "size평": 47.7,
-    "sizeM2": 157.54,
-    "floor": 21,
-    "totalFloors": 0,
-    "price": 75000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 75000
-      },
-      {
-        "month": "2025-07",
-        "price": 67000
-      },
-      {
-        "month": "2025-08",
-        "price": 80000
-      },
-      {
-        "month": "2026-02",
-        "price": 68500
-      },
-      {
-        "month": "2026-03",
-        "price": 70250
-      }
-    ]
-  },
-  {
-    "id": "LIVE_245",
-    "name": "유현마을(현대프라임빌)",
-    "district": "김포시",
-    "neighborhood": "풍무동",
-    "size평": 65.8,
-    "sizeM2": 217.5,
-    "floor": 2,
-    "totalFloors": 0,
-    "price": 68500,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2003,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 68500
-      },
-      {
-        "month": "2025-09",
-        "price": 50000
-      },
-      {
-        "month": "2025-10",
-        "price": 69000
-      },
-      {
-        "month": "2025-12",
-        "price": 71850
-      },
-      {
-        "month": "2026-02",
-        "price": 55250
-      }
-    ]
-  },
-  {
-    "id": "LIVE_246",
-    "name": "김포한강신안실크밸리3차",
-    "district": "김포시",
-    "neighborhood": "감정동",
-    "size평": 46.4,
-    "sizeM2": 153.2305,
-    "floor": 13,
-    "totalFloors": 0,
-    "price": 60000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2012,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 60000
-      },
-      {
-        "month": "2026-04",
-        "price": 57500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_247",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 17,
-    "totalFloors": 0,
-    "price": 65000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -8892,23 +9270,40 @@ const SAMPLE_DATA = [
   },
   {
     "id": "LIVE_248",
-    "name": "청송마을(현대2)",
+    "name": "푸른마을(신안)",
     "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 9,
+    "neighborhood": "감정동",
+    "size평": 61.2,
+    "sizeM2": 202.194,
+    "floor": 7,
     "totalFloors": 0,
-    "price": 63000,
-    "transactionDate": "2025-06",
+    "price": 44000,
+    "transactionDate": "2025-07",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 64500
-      },
+        "month": "2025-07",
+        "price": 44000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_249",
+    "name": "청송마을(현대2)",
+    "district": "김포시",
+    "neighborhood": "장기동",
+    "size평": 62.3,
+    "sizeM2": 205.854,
+    "floor": 9,
+    "totalFloors": 0,
+    "price": 90000,
+    "transactionDate": "2025-07",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2001,
+    "priceHistory": [
       {
         "month": "2025-07",
         "price": 74375
@@ -8940,73 +9335,20 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_249",
-    "name": "양도마을(서해그랑블)",
-    "district": "김포시",
-    "neighborhood": "풍무동",
-    "size평": 59.5,
-    "sizeM2": 196.7425,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 50000,
-    "transactionDate": "2025-06",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2000,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
-      {
-        "month": "2025-07",
-        "price": 49400
-      },
-      {
-        "month": "2025-08",
-        "price": 52000
-      },
-      {
-        "month": "2025-09",
-        "price": 46950
-      },
-      {
-        "month": "2025-10",
-        "price": 47150
-      },
-      {
-        "month": "2025-11",
-        "price": 52033
-      },
-      {
-        "month": "2026-01",
-        "price": 49667
-      },
-      {
-        "month": "2026-03",
-        "price": 46000
-      }
-    ]
-  },
-  {
     "id": "LIVE_250",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
     "size평": 52.7,
     "sizeM2": 174.072,
-    "floor": 14,
+    "floor": 5,
     "totalFloors": 0,
-    "price": 64000,
-    "transactionDate": "2025-06",
+    "price": 72000,
+    "transactionDate": "2025-07",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9044,18 +9386,14 @@ const SAMPLE_DATA = [
     "neighborhood": "장기동",
     "size평": 52.7,
     "sizeM2": 174.072,
-    "floor": 2,
+    "floor": 6,
     "totalFloors": 0,
-    "price": 63000,
-    "transactionDate": "2025-06",
+    "price": 65000,
+    "transactionDate": "2025-07",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9088,93 +9426,52 @@ const SAMPLE_DATA = [
   },
   {
     "id": "LIVE_252",
-    "name": "농장마을(신안)",
+    "name": "오스타파라곤3단지",
     "district": "김포시",
-    "neighborhood": "사우동",
-    "size평": 50.9,
-    "sizeM2": 168.33,
-    "floor": 14,
+    "neighborhood": "걸포동",
+    "size평": 47.6,
+    "sizeM2": 157.42,
+    "floor": 2,
     "totalFloors": 0,
-    "price": 36500,
-    "transactionDate": "2025-06",
+    "price": 67000,
+    "transactionDate": "2025-07",
     "lat": 37.6153,
     "lng": 126.7156,
-    "buildYear": 1998,
+    "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 36500
-      },
-      {
         "month": "2025-07",
-        "price": 37500
+        "price": 67000
       },
       {
-        "month": "2025-10",
-        "price": 37500
+        "month": "2025-08",
+        "price": 80000
+      },
+      {
+        "month": "2026-02",
+        "price": 68500
+      },
+      {
+        "month": "2026-03",
+        "price": 70250
       }
     ]
   },
   {
     "id": "LIVE_253",
-    "name": "청송마을(현대3)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 1,
-    "totalFloors": 0,
-    "price": 52500,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-09",
-        "price": 59000
-      },
-      {
-        "month": "2025-10",
-        "price": 55500
-      },
-      {
-        "month": "2026-01",
-        "price": 54000
-      },
-      {
-        "month": "2026-02",
-        "price": 54300
-      },
-      {
-        "month": "2026-03",
-        "price": 52500
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_254",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
     "size평": 52.7,
     "sizeM2": 174.072,
-    "floor": 3,
+    "floor": 20,
     "totalFloors": 0,
-    "price": 60000,
-    "transactionDate": "2025-05",
+    "price": 68000,
+    "transactionDate": "2025-07",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9206,24 +9503,41 @@ const SAMPLE_DATA = [
     ]
   },
   {
+    "id": "LIVE_254",
+    "name": "풍무자이2단지",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 47.2,
+    "sizeM2": 156.0857,
+    "floor": 12,
+    "totalFloors": 0,
+    "price": 60000,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-12",
+        "price": 59500
+      }
+    ]
+  },
+  {
     "id": "LIVE_255",
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
-    "size평": 62.3,
-    "sizeM2": 205.854,
-    "floor": 8,
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 4,
     "totalFloors": 0,
-    "price": 71000,
-    "transactionDate": "2025-05",
+    "price": 61000,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9256,147 +9570,19 @@ const SAMPLE_DATA = [
   },
   {
     "id": "LIVE_256",
-    "name": "풍년마을(삼성)",
-    "district": "김포시",
-    "neighborhood": "북변동",
-    "size평": 45.1,
-    "sizeM2": 149.22,
-    "floor": 13,
-    "totalFloors": 0,
-    "price": 43500,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2000,
-    "priceHistory": [
-      {
-        "month": "2025-09",
-        "price": 43800
-      },
-      {
-        "month": "2026-01",
-        "price": 43000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_257",
-    "name": "청송마을(현대3)",
+    "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
     "size평": 52.7,
     "sizeM2": 174.072,
     "floor": 5,
     "totalFloors": 0,
-    "price": 61000,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2001,
-    "priceHistory": [
-      {
-        "month": "2025-09",
-        "price": 59000
-      },
-      {
-        "month": "2025-10",
-        "price": 55500
-      },
-      {
-        "month": "2026-01",
-        "price": 54000
-      },
-      {
-        "month": "2026-02",
-        "price": 54300
-      },
-      {
-        "month": "2026-03",
-        "price": 52500
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_258",
-    "name": "농장마을(신안)",
-    "district": "김포시",
-    "neighborhood": "사우동",
-    "size평": 50.9,
-    "sizeM2": 168.33,
-    "floor": 1,
-    "totalFloors": 0,
-    "price": 30000,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 1998,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 36500
-      },
-      {
-        "month": "2025-07",
-        "price": 37500
-      },
-      {
-        "month": "2025-10",
-        "price": 37500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_259",
-    "name": "농장마을(신안)",
-    "district": "김포시",
-    "neighborhood": "사우동",
-    "size평": 50.9,
-    "sizeM2": 168.33,
-    "floor": 6,
-    "totalFloors": 0,
-    "price": 36000,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 1998,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 36500
-      },
-      {
-        "month": "2025-07",
-        "price": 37500
-      },
-      {
-        "month": "2025-10",
-        "price": 37500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_260",
-    "name": "청송마을(현대2)",
-    "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 62.3,
-    "sizeM2": 205.854,
-    "floor": 15,
-    "totalFloors": 0,
     "price": 65000,
-    "transactionDate": "2025-05",
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9428,49 +9614,250 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_261",
-    "name": "풍년마을(삼성)",
+    "id": "LIVE_257",
+    "name": "청송마을(현대2)",
     "district": "김포시",
-    "neighborhood": "북변동",
-    "size평": 45.1,
-    "sizeM2": 149.22,
-    "floor": 5,
+    "neighborhood": "장기동",
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 3,
     "totalFloors": 0,
-    "price": 46900,
-    "transactionDate": "2025-05",
+    "price": 65000,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
-    "buildYear": 2000,
+    "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-09",
-        "price": 43800
+        "month": "2025-07",
+        "price": 74375
+      },
+      {
+        "month": "2025-10",
+        "price": 74000
+      },
+      {
+        "month": "2025-12",
+        "price": 65000
       },
       {
         "month": "2026-01",
-        "price": 43000
+        "price": 59900
+      },
+      {
+        "month": "2026-02",
+        "price": 60000
+      },
+      {
+        "month": "2026-03",
+        "price": 65000
+      },
+      {
+        "month": "2026-04",
+        "price": 63000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_258",
+    "name": "오스타파라곤3단지",
+    "district": "김포시",
+    "neighborhood": "걸포동",
+    "size평": 47.7,
+    "sizeM2": 157.54,
+    "floor": 21,
+    "totalFloors": 0,
+    "price": 75000,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 67000
+      },
+      {
+        "month": "2025-08",
+        "price": 80000
+      },
+      {
+        "month": "2026-02",
+        "price": 68500
+      },
+      {
+        "month": "2026-03",
+        "price": 70250
+      }
+    ]
+  },
+  {
+    "id": "LIVE_259",
+    "name": "유현마을(현대프라임빌)",
+    "district": "김포시",
+    "neighborhood": "풍무동",
+    "size평": 65.8,
+    "sizeM2": 217.5,
+    "floor": 2,
+    "totalFloors": 0,
+    "price": 68500,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2003,
+    "priceHistory": [
+      {
+        "month": "2025-09",
+        "price": 50000
+      },
+      {
+        "month": "2025-10",
+        "price": 69000
+      },
+      {
+        "month": "2025-12",
+        "price": 71850
+      },
+      {
+        "month": "2026-02",
+        "price": 55250
+      },
+      {
+        "month": "2026-04",
+        "price": 58600
+      },
+      {
+        "month": "2026-05",
+        "price": 59150
+      }
+    ]
+  },
+  {
+    "id": "LIVE_260",
+    "name": "김포한강신안실크밸리3차",
+    "district": "김포시",
+    "neighborhood": "감정동",
+    "size평": 46.4,
+    "sizeM2": 153.2305,
+    "floor": 13,
+    "totalFloors": 0,
+    "price": 60000,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2012,
+    "priceHistory": [
+      {
+        "month": "2026-04",
+        "price": 57500
+      }
+    ]
+  },
+  {
+    "id": "LIVE_261",
+    "name": "청송마을(현대2)",
+    "district": "김포시",
+    "neighborhood": "장기동",
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 17,
+    "totalFloors": 0,
+    "price": 65000,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 74375
+      },
+      {
+        "month": "2025-10",
+        "price": 74000
+      },
+      {
+        "month": "2025-12",
+        "price": 65000
+      },
+      {
+        "month": "2026-01",
+        "price": 59900
+      },
+      {
+        "month": "2026-02",
+        "price": 60000
+      },
+      {
+        "month": "2026-03",
+        "price": 65000
+      },
+      {
+        "month": "2026-04",
+        "price": 63000
       }
     ]
   },
   {
     "id": "LIVE_262",
+    "name": "청송마을(현대2)",
+    "district": "김포시",
+    "neighborhood": "장기동",
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 9,
+    "totalFloors": 0,
+    "price": 63000,
+    "transactionDate": "2025-06",
+    "lat": 37.6153,
+    "lng": 126.7156,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-07",
+        "price": 74375
+      },
+      {
+        "month": "2025-10",
+        "price": 74000
+      },
+      {
+        "month": "2025-12",
+        "price": 65000
+      },
+      {
+        "month": "2026-01",
+        "price": 59900
+      },
+      {
+        "month": "2026-02",
+        "price": 60000
+      },
+      {
+        "month": "2026-03",
+        "price": 65000
+      },
+      {
+        "month": "2026-04",
+        "price": 63000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_263",
     "name": "양도마을(서해그랑블)",
     "district": "김포시",
     "neighborhood": "풍무동",
-    "size평": 50.7,
-    "sizeM2": 167.6654,
-    "floor": 15,
+    "size평": 59.5,
+    "sizeM2": 196.7425,
+    "floor": 7,
     "totalFloors": 0,
-    "price": 34000,
-    "transactionDate": "2025-05",
+    "price": 50000,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 50000
-      },
       {
         "month": "2025-07",
         "price": 49400
@@ -9498,56 +9885,55 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 46000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_263",
-    "name": "수기마을힐스테이트3단지",
-    "district": "김포시",
-    "neighborhood": "고촌읍 신곡리",
-    "size평": 47.5,
-    "sizeM2": 156.91,
-    "floor": 11,
-    "totalFloors": 0,
-    "price": 99000,
-    "transactionDate": "2025-05",
-    "lat": 37.6153,
-    "lng": 126.7156,
-    "buildYear": 2008,
-    "priceHistory": [
-      {
-        "month": "2025-12",
-        "price": 90000
       },
       {
-        "month": "2026-02",
-        "price": 83000
+        "month": "2026-05",
+        "price": 53500
       }
     ]
   },
   {
     "id": "LIVE_264",
-    "name": "장릉마을(삼성쉐르빌)",
+    "name": "청송마을(현대2)",
     "district": "김포시",
-    "neighborhood": "풍무동",
-    "size평": 57.2,
-    "sizeM2": 189.22,
-    "floor": 8,
+    "neighborhood": "장기동",
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 14,
     "totalFloors": 0,
-    "price": 39000,
-    "transactionDate": "2025-05",
+    "price": 64000,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
-    "buildYear": 2002,
+    "buildYear": 2001,
     "priceHistory": [
       {
-        "month": "2025-11",
-        "price": 39500
+        "month": "2025-07",
+        "price": 74375
+      },
+      {
+        "month": "2025-10",
+        "price": 74000
       },
       {
         "month": "2025-12",
-        "price": 40000
+        "price": 65000
+      },
+      {
+        "month": "2026-01",
+        "price": 59900
+      },
+      {
+        "month": "2026-02",
+        "price": 60000
+      },
+      {
+        "month": "2026-03",
+        "price": 65000
+      },
+      {
+        "month": "2026-04",
+        "price": 63000
       }
     ]
   },
@@ -9556,20 +9942,16 @@ const SAMPLE_DATA = [
     "name": "청송마을(현대2)",
     "district": "김포시",
     "neighborhood": "장기동",
-    "size평": 62.3,
-    "sizeM2": 205.854,
-    "floor": 6,
+    "size평": 52.7,
+    "sizeM2": 174.072,
+    "floor": 2,
     "totalFloors": 0,
-    "price": 68000,
-    "transactionDate": "2025-05",
+    "price": 63000,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
     "buildYear": 2001,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 64500
-      },
       {
         "month": "2025-07",
         "price": 74375
@@ -9602,55 +9984,131 @@ const SAMPLE_DATA = [
   },
   {
     "id": "LIVE_266",
-    "name": "청송마을(현대2)",
+    "name": "농장마을(신안)",
     "district": "김포시",
-    "neighborhood": "장기동",
-    "size평": 52.7,
-    "sizeM2": 174.072,
-    "floor": 2,
+    "neighborhood": "사우동",
+    "size평": 50.9,
+    "sizeM2": 168.33,
+    "floor": 14,
     "totalFloors": 0,
-    "price": 59900,
-    "transactionDate": "2025-05",
+    "price": 36500,
+    "transactionDate": "2025-06",
     "lat": 37.6153,
     "lng": 126.7156,
-    "buildYear": 2001,
+    "buildYear": 1998,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 64500
-      },
-      {
         "month": "2025-07",
-        "price": 74375
+        "price": 37500
       },
       {
         "month": "2025-10",
-        "price": 74000
-      },
-      {
-        "month": "2025-12",
-        "price": 65000
-      },
-      {
-        "month": "2026-01",
-        "price": 59900
-      },
-      {
-        "month": "2026-02",
-        "price": 60000
-      },
-      {
-        "month": "2026-03",
-        "price": 65000
-      },
-      {
-        "month": "2026-04",
-        "price": 63000
+        "price": 37500
       }
     ]
   },
   {
     "id": "LIVE_267",
+    "name": "한울마을2단지운정벽산블루밍아파트",
+    "district": "파주시",
+    "neighborhood": "동패동",
+    "size평": 55.8,
+    "sizeM2": 184.543,
+    "floor": 3,
+    "totalFloors": 0,
+    "price": 52000,
+    "transactionDate": "2026-05",
+    "lat": 37.8601,
+    "lng": 126.7874,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 59000
+      },
+      {
+        "month": "2025-10",
+        "price": 50000
+      },
+      {
+        "month": "2026-03",
+        "price": 52000
+      },
+      {
+        "month": "2026-05",
+        "price": 52000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_268",
+    "name": "해솔마을2단지월드메르디앙(2-117)",
+    "district": "파주시",
+    "neighborhood": "목동동",
+    "size평": 56.2,
+    "sizeM2": 185.77,
+    "floor": 9,
+    "totalFloors": 0,
+    "price": 42000,
+    "transactionDate": "2026-05",
+    "lat": 37.8601,
+    "lng": 126.7874,
+    "buildYear": 2001,
+    "priceHistory": [
+      {
+        "month": "2026-05",
+        "price": 42000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_269",
+    "name": "한라비발디(992-1)",
+    "district": "파주시",
+    "neighborhood": "조리읍 대원리",
+    "size평": 63.7,
+    "sizeM2": 210.49,
+    "floor": 3,
+    "totalFloors": 0,
+    "price": 30000,
+    "transactionDate": "2026-04",
+    "lat": 37.8601,
+    "lng": 126.7874,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2025-11",
+        "price": 33000
+      },
+      {
+        "month": "2026-04",
+        "price": 30000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_270",
+    "name": "장안6흰돌마을(199-6)",
+    "district": "파주시",
+    "neighborhood": "금릉동",
+    "size평": 51.9,
+    "sizeM2": 171.52,
+    "floor": 19,
+    "totalFloors": 0,
+    "price": 33000,
+    "transactionDate": "2026-04",
+    "lat": 37.8601,
+    "lng": 126.7874,
+    "buildYear": 2000,
+    "priceHistory": [
+      {
+        "month": "2026-04",
+        "price": 33000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_271",
     "name": "그린시티동문(218-0)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -9664,10 +10122,6 @@ const SAMPLE_DATA = [
     "lng": 126.7874,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 40500
-      },
       {
         "month": "2026-01",
         "price": 35000
@@ -9683,7 +10137,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_268",
+    "id": "LIVE_272",
     "name": "팜스프링(283-0)",
     "district": "파주시",
     "neighborhood": "아동동",
@@ -9704,7 +10158,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_269",
+    "id": "LIVE_273",
     "name": "한빛마을1단지한라비발디",
     "district": "파주시",
     "neighborhood": "야당동",
@@ -9733,7 +10187,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_270",
+    "id": "LIVE_274",
     "name": "신안실크밸리2차(900-0)",
     "district": "파주시",
     "neighborhood": "아동동",
@@ -9748,10 +10202,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 39000
-      },
-      {
         "month": "2025-09",
         "price": 40000
       },
@@ -9762,7 +10212,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_271",
+    "id": "LIVE_275",
     "name": "한울마을2단지운정벽산블루밍아파트",
     "district": "파주시",
     "neighborhood": "동패동",
@@ -9787,11 +10237,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 52000
+      },
+      {
+        "month": "2026-05",
+        "price": 52000
       }
     ]
   },
   {
-    "id": "LIVE_272",
+    "id": "LIVE_276",
     "name": "그린시티동문(218-0)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -9805,10 +10259,6 @@ const SAMPLE_DATA = [
     "lng": 126.7874,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 40500
-      },
       {
         "month": "2026-01",
         "price": 35000
@@ -9824,7 +10274,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_273",
+    "id": "LIVE_277",
     "name": "산내마을8단지월드메르디앙(114-37)",
     "district": "파주시",
     "neighborhood": "목동동",
@@ -9853,7 +10303,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_274",
+    "id": "LIVE_278",
     "name": "그린시티동문(218-0)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -9867,10 +10317,6 @@ const SAMPLE_DATA = [
     "lng": 126.7874,
     "buildYear": 2000,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 40500
-      },
       {
         "month": "2026-01",
         "price": 35000
@@ -9886,7 +10332,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_275",
+    "id": "LIVE_279",
     "name": "산내마을8단지월드메르디앙(114-37)",
     "district": "파주시",
     "neighborhood": "목동동",
@@ -9915,7 +10361,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_276",
+    "id": "LIVE_280",
     "name": "한라비발디(992-1)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -9932,11 +10378,15 @@ const SAMPLE_DATA = [
       {
         "month": "2025-11",
         "price": 33000
+      },
+      {
+        "month": "2026-04",
+        "price": 30000
       }
     ]
   },
   {
-    "id": "LIVE_277",
+    "id": "LIVE_281",
     "name": "한울마을2단지운정벽산블루밍아파트",
     "district": "파주시",
     "neighborhood": "동패동",
@@ -9961,11 +10411,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 52000
+      },
+      {
+        "month": "2026-05",
+        "price": 52000
       }
     ]
   },
   {
-    "id": "LIVE_278",
+    "id": "LIVE_282",
     "name": "한빛마을1단지한라비발디",
     "district": "파주시",
     "neighborhood": "야당동",
@@ -9994,7 +10448,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_279",
+    "id": "LIVE_283",
     "name": "파주푸르지오(269-0)",
     "district": "파주시",
     "neighborhood": "조리읍 봉일천리",
@@ -10015,7 +10469,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_280",
+    "id": "LIVE_284",
     "name": "신안실크밸리2차(900-0)",
     "district": "파주시",
     "neighborhood": "아동동",
@@ -10030,10 +10484,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 39000
-      },
-      {
         "month": "2025-09",
         "price": 40000
       },
@@ -10044,7 +10494,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_281",
+    "id": "LIVE_285",
     "name": "산내마을8단지월드메르디앙(114-37)",
     "district": "파주시",
     "neighborhood": "목동동",
@@ -10073,7 +10523,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_282",
+    "id": "LIVE_286",
     "name": "한빛마을1단지한라비발디",
     "district": "파주시",
     "neighborhood": "야당동",
@@ -10102,7 +10552,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_283",
+    "id": "LIVE_287",
     "name": "한울마을2단지운정벽산블루밍아파트",
     "district": "파주시",
     "neighborhood": "동패동",
@@ -10127,11 +10577,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-03",
         "price": 52000
+      },
+      {
+        "month": "2026-05",
+        "price": 52000
       }
     ]
   },
   {
-    "id": "LIVE_284",
+    "id": "LIVE_288",
     "name": "신안실크밸리2차(900-0)",
     "district": "파주시",
     "neighborhood": "아동동",
@@ -10146,10 +10600,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 39000
-      },
-      {
         "month": "2025-09",
         "price": 40000
       },
@@ -10160,7 +10610,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_285",
+    "id": "LIVE_289",
     "name": "파주힐스테이트2차",
     "district": "파주시",
     "neighborhood": "문산읍 당동리",
@@ -10173,15 +10623,10 @@ const SAMPLE_DATA = [
     "lat": 37.8601,
     "lng": 126.7874,
     "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 41000
-      }
-    ]
+    "priceHistory": []
   },
   {
-    "id": "LIVE_286",
+    "id": "LIVE_290",
     "name": "그린시티동문(218-0)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -10196,10 +10641,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 40500
-      },
-      {
         "month": "2026-01",
         "price": 35000
       },
@@ -10214,7 +10655,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_287",
+    "id": "LIVE_291",
     "name": "그린시티동문(218-0)",
     "district": "파주시",
     "neighborhood": "조리읍 대원리",
@@ -10229,10 +10670,6 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 40500
-      },
-      {
         "month": "2026-01",
         "price": 35000
       },
@@ -10247,40 +10684,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_288",
-    "name": "그린시티동문(218-0)",
-    "district": "파주시",
-    "neighborhood": "조리읍 대원리",
-    "size평": 59.9,
-    "sizeM2": 197.9,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 40000,
-    "transactionDate": "2025-05",
-    "lat": 37.8601,
-    "lng": 126.7874,
-    "buildYear": 2000,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 40500
-      },
-      {
-        "month": "2026-01",
-        "price": 35000
-      },
-      {
-        "month": "2026-03",
-        "price": 41000
-      },
-      {
-        "month": "2026-04",
-        "price": 35000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_289",
+    "id": "LIVE_292",
     "name": "해동마을신도브래뉴",
     "district": "양주시",
     "neighborhood": "광사동",
@@ -10305,7 +10709,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_290",
+    "id": "LIVE_293",
     "name": "해동마을신도브래뉴",
     "district": "양주시",
     "neighborhood": "광사동",
@@ -10330,23 +10734,85 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_291",
-    "name": "현진에버빌",
-    "district": "동두천시",
-    "neighborhood": "지행동",
-    "size평": 49.8,
-    "sizeM2": 164.59,
-    "floor": 13,
+    "id": "LIVE_294",
+    "name": "현대모닝사이드1-A",
+    "district": "광주시",
+    "neighborhood": "신현동",
+    "size평": 45.5,
+    "sizeM2": 150.455,
+    "floor": 8,
     "totalFloors": 0,
-    "price": 44000,
-    "transactionDate": "2025-05",
-    "lat": 37.9035,
-    "lng": 127.0601,
-    "buildYear": 2005,
-    "priceHistory": []
+    "price": 64800,
+    "transactionDate": "2026-05",
+    "lat": 37.4296,
+    "lng": 127.2558,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-10",
+        "price": 62900
+      },
+      {
+        "month": "2026-01",
+        "price": 65600
+      },
+      {
+        "month": "2026-03",
+        "price": 67800
+      },
+      {
+        "month": "2026-04",
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
+      }
+    ]
   },
   {
-    "id": "LIVE_292",
+    "id": "LIVE_295",
+    "name": "오포e편한세상",
+    "district": "광주시",
+    "neighborhood": "신현동",
+    "size평": 48.7,
+    "sizeM2": 160.8298,
+    "floor": 6,
+    "totalFloors": 0,
+    "price": 87000,
+    "transactionDate": "2026-05",
+    "lat": 37.4296,
+    "lng": 127.2558,
+    "buildYear": 2010,
+    "priceHistory": [
+      {
+        "month": "2025-08",
+        "price": 84000
+      },
+      {
+        "month": "2025-10",
+        "price": 82000
+      },
+      {
+        "month": "2025-12",
+        "price": 79000
+      },
+      {
+        "month": "2026-01",
+        "price": 85167
+      },
+      {
+        "month": "2026-04",
+        "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
+      }
+    ]
+  },
+  {
+    "id": "LIVE_296",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10374,12 +10840,53 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_293",
+    "id": "LIVE_297",
+    "name": "현대모닝사이드1-A",
+    "district": "광주시",
+    "neighborhood": "신현동",
+    "size평": 48.9,
+    "sizeM2": 161.773,
+    "floor": 14,
+    "totalFloors": 0,
+    "price": 55000,
+    "transactionDate": "2026-04",
+    "lat": 37.4296,
+    "lng": 127.2558,
+    "buildYear": 2002,
+    "priceHistory": [
+      {
+        "month": "2025-10",
+        "price": 62900
+      },
+      {
+        "month": "2026-01",
+        "price": 65600
+      },
+      {
+        "month": "2026-03",
+        "price": 67800
+      },
+      {
+        "month": "2026-04",
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
+      }
+    ]
+  },
+  {
+    "id": "LIVE_298",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10393,10 +10900,6 @@ const SAMPLE_DATA = [
     "lng": 127.2558,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82000
-      },
       {
         "month": "2025-08",
         "price": 84000
@@ -10416,11 +10919,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_294",
+    "id": "LIVE_299",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10448,12 +10955,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_295",
+    "id": "LIVE_300",
     "name": "쌍령현대1차모닝사이드",
     "district": "광주시",
     "neighborhood": "쌍령동",
@@ -10490,7 +11001,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_296",
+    "id": "LIVE_301",
     "name": "코아루햇빛마을",
     "district": "광주시",
     "neighborhood": "초월읍 산이리",
@@ -10519,7 +11030,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_297",
+    "id": "LIVE_302",
     "name": "신일해피트리",
     "district": "광주시",
     "neighborhood": "초월읍 도평리",
@@ -10534,17 +11045,13 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 36000
-      },
-      {
         "month": "2026-03",
         "price": 34500
       }
     ]
   },
   {
-    "id": "LIVE_298",
+    "id": "LIVE_303",
     "name": "쌍령현대1차모닝사이드",
     "district": "광주시",
     "neighborhood": "쌍령동",
@@ -10581,7 +11088,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_299",
+    "id": "LIVE_304",
     "name": "오포우림필유골드135",
     "district": "광주시",
     "neighborhood": "능평동",
@@ -10602,7 +11109,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_300",
+    "id": "LIVE_305",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10630,12 +11137,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_301",
+    "id": "LIVE_306",
     "name": "쌍령현대1차모닝사이드",
     "district": "광주시",
     "neighborhood": "쌍령동",
@@ -10672,7 +11183,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_302",
+    "id": "LIVE_307",
     "name": "태전동우림필유",
     "district": "광주시",
     "neighborhood": "태전동",
@@ -10693,7 +11204,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_303",
+    "id": "LIVE_308",
     "name": "코아루햇빛마을",
     "district": "광주시",
     "neighborhood": "초월읍 산이리",
@@ -10722,7 +11233,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_304",
+    "id": "LIVE_309",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10737,10 +11248,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -10759,11 +11266,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_305",
+    "id": "LIVE_310",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10778,10 +11289,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -10800,11 +11307,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_306",
+    "id": "LIVE_311",
     "name": "코아루햇빛마을",
     "district": "광주시",
     "neighborhood": "초월읍 산이리",
@@ -10833,7 +11344,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_307",
+    "id": "LIVE_312",
     "name": "양벌리우림",
     "district": "광주시",
     "neighborhood": "양벌동",
@@ -10854,7 +11365,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_308",
+    "id": "LIVE_313",
     "name": "현대모닝사이드1-B",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10875,7 +11386,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_309",
+    "id": "LIVE_314",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10889,10 +11400,6 @@ const SAMPLE_DATA = [
     "lng": 127.2558,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82000
-      },
       {
         "month": "2025-08",
         "price": 84000
@@ -10912,11 +11419,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_310",
+    "id": "LIVE_315",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10944,12 +11455,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_311",
+    "id": "LIVE_316",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -10977,12 +11492,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_312",
+    "id": "LIVE_317",
     "name": "쌍령현대1차모닝사이드",
     "district": "광주시",
     "neighborhood": "쌍령동",
@@ -11019,7 +11538,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_313",
+    "id": "LIVE_318",
     "name": "경남아너스빌2단지",
     "district": "광주시",
     "neighborhood": "탄벌동",
@@ -11040,7 +11559,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_314",
+    "id": "LIVE_319",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11055,10 +11574,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11077,11 +11592,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_315",
+    "id": "LIVE_320",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11096,10 +11615,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11118,11 +11633,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_316",
+    "id": "LIVE_321",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11150,12 +11669,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_317",
+    "id": "LIVE_322",
     "name": "현대모닝사이드1-A",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11183,12 +11706,16 @@ const SAMPLE_DATA = [
       },
       {
         "month": "2026-04",
-        "price": 65000
+        "price": 61667
+      },
+      {
+        "month": "2026-05",
+        "price": 64800
       }
     ]
   },
   {
-    "id": "LIVE_318",
+    "id": "LIVE_323",
     "name": "코아루햇빛마을",
     "district": "광주시",
     "neighborhood": "초월읍 산이리",
@@ -11217,7 +11744,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_319",
+    "id": "LIVE_324",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11232,10 +11759,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11254,11 +11777,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_320",
+    "id": "LIVE_325",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11273,10 +11800,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11295,11 +11818,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_321",
+    "id": "LIVE_326",
     "name": "쌍령현대1차모닝사이드",
     "district": "광주시",
     "neighborhood": "쌍령동",
@@ -11336,7 +11863,7 @@ const SAMPLE_DATA = [
     ]
   },
   {
-    "id": "LIVE_322",
+    "id": "LIVE_327",
     "name": "벽산블루밍2단지",
     "district": "광주시",
     "neighborhood": "탄벌동",
@@ -11349,15 +11876,10 @@ const SAMPLE_DATA = [
     "lat": 37.4296,
     "lng": 127.2558,
     "buildYear": 2011,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 56500
-      }
-    ]
+    "priceHistory": []
   },
   {
-    "id": "LIVE_323",
+    "id": "LIVE_328",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11371,10 +11893,6 @@ const SAMPLE_DATA = [
     "lng": 127.2558,
     "buildYear": 2010,
     "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82000
-      },
       {
         "month": "2025-08",
         "price": 84000
@@ -11394,11 +11912,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_324",
+    "id": "LIVE_329",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11413,10 +11935,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11435,11 +11953,15 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
+      },
+      {
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   },
   {
-    "id": "LIVE_325",
+    "id": "LIVE_330",
     "name": "신일해피트리",
     "district": "광주시",
     "neighborhood": "초월읍 도평리",
@@ -11454,17 +11976,13 @@ const SAMPLE_DATA = [
     "buildYear": 2000,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 36000
-      },
-      {
         "month": "2026-03",
         "price": 34500
       }
     ]
   },
   {
-    "id": "LIVE_326",
+    "id": "LIVE_331",
     "name": "오포e편한세상",
     "district": "광주시",
     "neighborhood": "신현동",
@@ -11479,10 +11997,6 @@ const SAMPLE_DATA = [
     "buildYear": 2010,
     "priceHistory": [
       {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
         "month": "2025-08",
         "price": 84000
       },
@@ -11501,183 +12015,16 @@ const SAMPLE_DATA = [
       {
         "month": "2026-04",
         "price": 84500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_327",
-    "name": "현대모닝사이드1-A",
-    "district": "광주시",
-    "neighborhood": "신현동",
-    "size평": 45.5,
-    "sizeM2": 150.455,
-    "floor": 11,
-    "totalFloors": 0,
-    "price": 79000,
-    "transactionDate": "2025-05",
-    "lat": 37.4296,
-    "lng": 127.2558,
-    "buildYear": 2002,
-    "priceHistory": [
-      {
-        "month": "2025-10",
-        "price": 62900
       },
       {
-        "month": "2026-01",
-        "price": 65600
-      },
-      {
-        "month": "2026-03",
-        "price": 67800
-      },
-      {
-        "month": "2026-04",
-        "price": 65000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_328",
-    "name": "오포e편한세상",
-    "district": "광주시",
-    "neighborhood": "신현동",
-    "size평": 48.7,
-    "sizeM2": 160.8298,
-    "floor": 7,
-    "totalFloors": 0,
-    "price": 84500,
-    "transactionDate": "2025-05",
-    "lat": 37.4296,
-    "lng": 127.2558,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
-        "month": "2025-08",
-        "price": 84000
-      },
-      {
-        "month": "2025-10",
-        "price": 82000
-      },
-      {
-        "month": "2025-12",
-        "price": 79000
-      },
-      {
-        "month": "2026-01",
-        "price": 85167
-      },
-      {
-        "month": "2026-04",
-        "price": 84500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_329",
-    "name": "쌍령현대1차모닝사이드",
-    "district": "광주시",
-    "neighborhood": "쌍령동",
-    "size평": 45.4,
-    "sizeM2": 149.953,
-    "floor": 3,
-    "totalFloors": 0,
-    "price": 40000,
-    "transactionDate": "2025-05",
-    "lat": 37.4296,
-    "lng": 127.2558,
-    "buildYear": 2000,
-    "priceHistory": [
-      {
-        "month": "2025-07",
-        "price": 38500
-      },
-      {
-        "month": "2025-12",
-        "price": 40800
-      },
-      {
-        "month": "2026-02",
-        "price": 34000
-      },
-      {
-        "month": "2026-03",
-        "price": 34000
-      },
-      {
-        "month": "2026-04",
-        "price": 40000
-      }
-    ]
-  },
-  {
-    "id": "LIVE_330",
-    "name": "양벌리우림",
-    "district": "광주시",
-    "neighborhood": "양벌동",
-    "size평": 58.4,
-    "sizeM2": 192.95,
-    "floor": 11,
-    "totalFloors": 0,
-    "price": 43000,
-    "transactionDate": "2025-05",
-    "lat": 37.4296,
-    "lng": 127.2558,
-    "buildYear": 2000,
-    "priceHistory": [
-      {
-        "month": "2026-01",
-        "price": 48500
-      }
-    ]
-  },
-  {
-    "id": "LIVE_331",
-    "name": "오포e편한세상",
-    "district": "광주시",
-    "neighborhood": "신현동",
-    "size평": 48.7,
-    "sizeM2": 160.8298,
-    "floor": 6,
-    "totalFloors": 0,
-    "price": 85000,
-    "transactionDate": "2025-05",
-    "lat": 37.4296,
-    "lng": 127.2558,
-    "buildYear": 2010,
-    "priceHistory": [
-      {
-        "month": "2025-06",
-        "price": 82000
-      },
-      {
-        "month": "2025-08",
-        "price": 84000
-      },
-      {
-        "month": "2025-10",
-        "price": 82000
-      },
-      {
-        "month": "2025-12",
-        "price": 79000
-      },
-      {
-        "month": "2026-01",
-        "price": 85167
-      },
-      {
-        "month": "2026-04",
-        "price": 84500
+        "month": "2026-05",
+        "price": 87000
       }
     ]
   }
 ];
+
+
 
 
 
